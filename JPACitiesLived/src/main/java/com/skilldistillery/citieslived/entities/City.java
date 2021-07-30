@@ -1,5 +1,6 @@
 package com.skilldistillery.citieslived.entities;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -12,6 +13,11 @@ public class City {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	private String name;
+	private String address;
+	private String state;
+	@Column(name="postal_code")
+	private String postalCode;
+	private String country;
 	
 	public City() {}
 	
