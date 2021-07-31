@@ -8,7 +8,7 @@ import com.skilldistillery.citieslived.entities.City;
 
 public interface CityRepository extends JpaRepository<City, Integer> {
 	
-	List<City> findByName(String name);
+	List<City> findByNameLike(String name);
 	
 	List<City> findByAddressLikeOrStateLike(String keyword1, String keyword2);
 	

@@ -2,6 +2,7 @@ package com.skilldistillery.citieslived.controllers;
 
 import java.util.List;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -33,29 +34,64 @@ public class CityController {
 		return cityService.allCities();
 	}
 	
-	@GetMapping("cities{id}")
-	public City showById(@PathVariable int id) {
-		return cityService.findById(id);
+	@GetMapping("cities/{id}")
+	public City showById(@PathVariable int id, HttpServletResponse res) {
+		City city = cityService.findById(id);
+		if (city == null) {
+			res.setStatus(404); // Not Found
+		}
+		return city;
 	}
 	
-	@GetMapping("cities/search/{name}")
-	public List<City> searchByName(@PathVariable String name) {
-		return cityService.findByName(name);
+	@GetMapping("cities/search/city/{name}")
+	public List<City> searchByName(@PathVariable String name, HttpServletResponse res) {
+		List<City> cities = cityService.findByName(name);
+		if (cities == null) {
+			res.setStatus(404); // Not Found
+		}
+		return cities;
 	}
 	
 	@GetMapping("cities/search/{keyword}")
-	public List<City> keywordSearchForAddressAndState(@PathVariable String keyword) {
-		return cityService.findByAddressOrState(keyword);
+	public List<City> keywordSearchForAddressAndState(@PathVariable String keyword, HttpServletResponse res) {
+		List<City> cities = cityService.findByAddressOrState(keyword);
+		if (cities == null) {
+			res.setStatus(404); // Not Found
+		}
+		return cities;
 	}
 	
 	@PostMapping("cities")
-	public City createCity(@RequestBody City city) {
-		return cityService.createCity(city);
+	public City createCity(@RequestBody City city, HttpServletResponse res, HttpServletRequest req) {
+		city = cityService.createCity(city);
+		try {
+			if (city == null) {
+				res.setStatus(404);
+			} else {
+				res.setStatus(201); // Created
+				StringBuffer url = req.getRequestURL();
+				url.append("/").append(city.getId());
+				res.setHeader("Location", url.toString());
+			}
+		} catch (Exception e) {
+			res.setStatus(400); // Bad Request
+			city = null;
+		}
+		return city;
 	}
 	
 	@PutMapping("cities")
-	public City updateCity(@RequestBody City city) {
-		return cityService.updateCity(city);
+	public City updateCity(@RequestBody City city, HttpServletResponse res) {
+		try {
+			city = cityService.updateCity(city);
+		} catch (Exception e) {
+			res.setStatus(400); // Bad Request
+			city = null;
+		}
+		if (city == null) {
+			res.setStatus(404); // Not Found
+		}
+		return city;
 	}
 	
 	@DeleteMapping("cities/{id}")

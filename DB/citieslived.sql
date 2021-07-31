@@ -21,7 +21,7 @@ USE `citiesliveddb` ;
 DROP TABLE IF EXISTS `city` ;
 
 CREATE TABLE IF NOT EXISTS `city` (
-  `id` INT NOT NULL,
+  `id` INT NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(100) NULL,
   `address` VARCHAR(100) NULL,
   `state` VARCHAR(100) NULL,

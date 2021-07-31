@@ -32,7 +32,7 @@ public class CityServiceImpl implements CityService {
 	@Override
 	public List<City> findByName(String name) {
 		name = "%" + name + "%";
-		return cityRepo.findByName(name);
+		return cityRepo.findByNameLike(name);
 	}
 
 	@Override

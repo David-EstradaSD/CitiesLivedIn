@@ -34,6 +34,38 @@ public class City {
 		this.name = name;
 	}
 
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+	public String getState() {
+		return state;
+	}
+
+	public void setState(String state) {
+		this.state = state;
+	}
+
+	public String getPostalCode() {
+		return postalCode;
+	}
+
+	public void setPostalCode(String postalCode) {
+		this.postalCode = postalCode;
+	}
+
+	public String getCountry() {
+		return country;
+	}
+
+	public void setCountry(String country) {
+		this.country = country;
+	}
+
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -58,8 +90,10 @@ public class City {
 
 	@Override
 	public String toString() {
-		return "City [id=" + id + ", name=" + name + "]";
+		return "City [id=" + id + ", name=" + name + ", address=" + address + ", state=" + state + ", postalCode="
+				+ postalCode + ", country=" + country + "]";
 	}
-	
+
+
 
 }
