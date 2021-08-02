@@ -5,7 +5,220 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2021-07-29T07:00:00Z</updated>
+  <updated>2021-07-31T06:32:00Z</updated>
+  <entry>
+    <title>Spring Cloud 2021.0.0-M1 (aka Jubilee) Is Available</title>
+    <link rel="alternate" href="https://spring.io/blog/2021/07/30/spring-cloud-2021-0-0-m1-aka-jubilee-is-available" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Ryan Baxter</name>
+    </author>
+    <id>tag:spring.io,2021-07-30:4509</id>
+    <updated>2021-07-31T06:32:00Z</updated>
+    <content type="html">&lt;p&gt;On behalf of the community, I am pleased to announce that the Milestone 1 (M1) of the &lt;a href="https://cloud.spring.io"&gt;Spring Cloud 2021&lt;/a&gt; Release Train is available today. The release can be found in &lt;a href="https://repo.spring.io/milestone/"&gt;Spring Milestone&lt;/a&gt; repository. You can check out the 2021 &lt;a href="https://github.com/spring-projects/spring-cloud/wiki/Spring-Cloud-2021-Release-Notes"&gt;release notes for more information&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This release is compatible with Spring Boot 2.6.0-M1.&lt;/p&gt;
+&lt;p&gt;The GitHub Project for this release can be found &lt;a href="https://github.com/orgs/spring-cloud/projects/63"&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;h2&gt;&lt;a href="#notable-changes-in-the-2021-release-train" class="anchor" name="notable-changes-in-the-2021-release-train"&gt;&lt;/a&gt;Notable Changes in the 2021 Release Train&lt;/h2&gt;&lt;h3&gt;&lt;a href="#spring-cloud-gateway" class="anchor" name="spring-cloud-gateway"&gt;&lt;/a&gt;Spring Cloud Gateway&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;StripPrefixFilter now defaults to &lt;code&gt;1&lt;/code&gt; instead of &lt;code&gt;0&lt;/code&gt; &lt;a href="https://github.com/spring-cloud/spring-cloud-gateway/issues/2033"&gt;#2033&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Add new &lt;code&gt;CacheRequestBodyFilter&lt;/code&gt; &lt;a href="https://github.com/spring-cloud/spring-cloud-gateway/pull/1943"&gt;#1943&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Share Routes across Gateway instances with Redis &lt;a href="https://github.com/spring-cloud/spring-cloud-gateway/pull/1390"&gt;#1390&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3&gt;&lt;a href="#spring-cloud-sleuth" class="anchor" name="spring-cloud-sleuth"&gt;&lt;/a&gt;Spring Cloud Sleuth&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Added JDBC support &lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/issues/1930"&gt;#1930&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Instruments Tomcat Valve &lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/issues/1329"&gt;#1329&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Support for Spring Vault &lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/issues/1952"&gt;#1952&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Automatic tag table generation documentation &lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/issues/1950"&gt;#1950&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Spring Cloud Deployer support &lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/issues/1947"&gt;#1947&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Spring Cloud Skipper support &lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/issues/1927"&gt;#1927&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;R2DBC support &lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/issues/1524"&gt;#1524&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Support for Reactor Kafka &lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/issues/1708"&gt;#1708&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Spring TX instrumentation &lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/issues/1941"&gt;#1941&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Spring Batch support &lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/issues/1904"&gt;#1904&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;RSocket instrumentation &lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/issues/1677"&gt;#1677&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Support for Spring Cloud Task &lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/issues/1903"&gt;#1903&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Spring Cloud Config instrumentation &lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/issues/1915"&gt;#1915&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Added support for Spring Cloud Circuit Breaker Reactive &lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/issues/1910"&gt;#1910&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Added support for Kotlin Coroutines &lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/issues/1737"&gt;#1737&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3&gt;&lt;a href="#spring-cloud-openfeign" class="anchor" name="spring-cloud-openfeign"&gt;&lt;/a&gt;Spring Cloud Openfeign&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Bump Feign to 11.6 &lt;a href="https://github.com/spring-cloud/spring-cloud-openfeign/issues/584"&gt;#584&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3&gt;&lt;a href="#spring-cloud-kubernetes" class="anchor" name="spring-cloud-kubernetes"&gt;&lt;/a&gt;Spring Cloud Kubernetes&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Update kubernetes-client to 5.5.0 &lt;a href="https://github.com/spring-cloud/spring-cloud-kubernetes/pull/836"&gt;#836&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3&gt;&lt;a href="#spring-cloud-task" class="anchor" name="spring-cloud-task"&gt;&lt;/a&gt;Spring Cloud Task&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Upgraded Spring Cloud Stream to the 3.2 line.&lt;/li&gt;
+  &lt;li&gt;Prepared for Spring Boot 2.6 by removing the &lt;code&gt;TaskJobLauncherCommandLineRunner&lt;/code&gt; in favor of the &lt;code&gt;TaskJobLauncherApplicationRunner&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;h3&gt;&lt;a href="#spring-cloud-config" class="anchor" name="spring-cloud-config"&gt;&lt;/a&gt;Spring Cloud Config&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Integration with AWS Secrets Manager &lt;a href="https://github.com/spring-cloud/spring-cloud-config/pull/1638"&gt;#1638&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;GCP secret manager integration &lt;a href="https://github.com/spring-cloud/spring-cloud-config/pull/1628"&gt;#1628&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Support for the AWS Systems Manager Parameter Store &lt;a href="https://github.com/spring-cloud/spring-cloud-config/pull/1598"&gt;#1598&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h3&gt;&lt;a href="#spring-cloud-contract" class="anchor" name="spring-cloud-contract"&gt;&lt;/a&gt;Spring Cloud Contract&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;JDK16 support&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following modules were updated as part of 2021.0.0-M1:&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Module &lt;/th&gt;
+      &lt;th&gt;Version &lt;/th&gt;
+      &lt;th&gt;Issues&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Cloud Consul &lt;/td&gt;
+      &lt;td&gt;3.1.0-M1 &lt;/td&gt;
+      &lt;td&gt;(&lt;a href="https://github.com/spring-cloud/spring-cloud-consul/milestone/59?closed=1"&gt;issues&lt;/a&gt;)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Cloud Gateway &lt;/td&gt;
+      &lt;td&gt;3.1.0-M1 &lt;/td&gt;
+      &lt;td&gt;(&lt;a href="https://github.com/spring-cloud/spring-cloud-gateway/milestone/53?closed=1"&gt;issues&lt;/a&gt;)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Cloud Zookeeper &lt;/td&gt;
+      &lt;td&gt;3.1.0-M1 &lt;/td&gt;
+      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Cloud Sleuth &lt;/td&gt;
+      &lt;td&gt;3.1.0-M1 &lt;/td&gt;
+      &lt;td&gt;(&lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/milestone/91?closed=1"&gt;issues&lt;/a&gt;)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Cloud Cli &lt;/td&gt;
+      &lt;td&gt;3.1.0-M1 &lt;/td&gt;
+      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Cloud Starter Build &lt;/td&gt;
+      &lt;td&gt;2021.0.0-M1 &lt;/td&gt;
+      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Cloud Bus &lt;/td&gt;
+      &lt;td&gt;3.1.0-M1 &lt;/td&gt;
+      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Cloud Vault &lt;/td&gt;
+      &lt;td&gt;3.1.0-M1 &lt;/td&gt;
+      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Cloud Commons &lt;/td&gt;
+      &lt;td&gt;3.1.0-M1 &lt;/td&gt;
+      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Cloud Openfeign &lt;/td&gt;
+      &lt;td&gt;3.1.0-M1 &lt;/td&gt;
+      &lt;td&gt;(&lt;a href="https://github.com/spring-cloud/spring-cloud-openfeign/milestone/38?closed=1"&gt;issues&lt;/a&gt;)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Cloud Kubernetes &lt;/td&gt;
+      &lt;td&gt;2.1.0-M1 &lt;/td&gt;
+      &lt;td&gt;(&lt;a href="https://github.com/spring-cloud/spring-cloud-kubernetes/milestone/34?closed=1"&gt;issues&lt;/a&gt;)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Cloud Task &lt;/td&gt;
+      &lt;td&gt;2.4.0-M1 &lt;/td&gt;
+      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Cloud Config &lt;/td&gt;
+      &lt;td&gt;3.1.0-M1 &lt;/td&gt;
+      &lt;td&gt;(&lt;a href="https://github.com/spring-cloud/spring-cloud-config/milestone/92?closed=1"&gt;issues&lt;/a&gt;)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Cloud Netflix &lt;/td&gt;
+      &lt;td&gt;3.1.0-M1 &lt;/td&gt;
+      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Cloud Contract &lt;/td&gt;
+      &lt;td&gt;3.1.0-M1 &lt;/td&gt;
+      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Cloud Cloudfoundry &lt;/td&gt;
+      &lt;td&gt;3.1.0-M1 &lt;/td&gt;
+      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Spring Cloud Circuitbreaker &lt;/td&gt;
+      &lt;td&gt;2.1.0-M1 &lt;/td&gt;
+      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;As always, we welcome feedback on &lt;a href="https://github.com/spring-cloud/"&gt;GitHub&lt;/a&gt;, on &lt;a href="https://gitter.im/spring-cloud/spring-cloud"&gt;Gitter&lt;/a&gt;, on &lt;a href="https://stackoverflow.com/questions/tagged/spring-cloud"&gt;Stack Overflow&lt;/a&gt;, or on &lt;a href="https://twitter.com/SpringCloud"&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To get started with Maven with a BOM (dependency management only):&lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint"&gt;&lt;br/&gt;    &amp;lt;repositories&amp;gt;&#xD;
+        &amp;lt;repository&amp;gt;&#xD;
+            &amp;lt;id&amp;gt;spring-milestones&amp;lt;/id&amp;gt;&#xD;
+            &amp;lt;name&amp;gt;Spring Milestones&amp;lt;/name&amp;gt;&#xD;
+            &amp;lt;url&amp;gt;https://repo.spring.io/milestone&amp;lt;/url&amp;gt;&#xD;
+            &amp;lt;snapshots&amp;gt;&#xD;
+                &amp;lt;enabled&amp;gt;false&amp;lt;/enabled&amp;gt;&#xD;
+            &amp;lt;/snapshots&amp;gt;&#xD;
+        &amp;lt;/repository&amp;gt;&#xD;
+    &amp;lt;/repositories&amp;gt;&#xD;
+&amp;lt;dependencyManagement&amp;gt;&#xD;
+    &amp;lt;dependencies&amp;gt;&#xD;
+        &amp;lt;dependency&amp;gt;&#xD;
+            &amp;lt;groupId&amp;gt;org.springframework.cloud&amp;lt;/groupId&amp;gt;&#xD;
+            &amp;lt;artifactId&amp;gt;spring-cloud-dependencies&amp;lt;/artifactId&amp;gt;&#xD;
+            &amp;lt;version&amp;gt;2021.0.0-M1&amp;lt;/version&amp;gt;&#xD;
+            &amp;lt;type&amp;gt;pom&amp;lt;/type&amp;gt;&#xD;
+            &amp;lt;scope&amp;gt;import&amp;lt;/scope&amp;gt;&#xD;
+        &amp;lt;/dependency&amp;gt;&#xD;
+    &amp;lt;/dependencies&amp;gt;&#xD;
+&amp;lt;/dependencyManagement&amp;gt;&#xD;
+&amp;lt;dependencies&amp;gt;&#xD;
+    &amp;lt;dependency&amp;gt;&#xD;
+        &amp;lt;groupId&amp;gt;org.springframework.cloud&amp;lt;/groupId&amp;gt;&#xD;
+        &amp;lt;artifactId&amp;gt;spring-cloud-starter-config&amp;lt;/artifactId&amp;gt;&#xD;
+    &amp;lt;/dependency&amp;gt;&#xD;
+    &amp;lt;dependency&amp;gt;&#xD;
+        &amp;lt;groupId&amp;gt;org.springframework.cloud&amp;lt;/groupId&amp;gt;&#xD;
+        &amp;lt;artifactId&amp;gt;spring-cloud-starter-netflix-eureka-client&amp;lt;/artifactId&amp;gt;&#xD;
+    &amp;lt;/dependency&amp;gt;&#xD;
+    ...&#xD;
+&amp;lt;/dependencies&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;or with Gradle:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint"&gt;buildscript {&#xD;
+dependencies {&#xD;
+classpath &amp;quot;io.spring.gradle:dependency-management-plugin:1.0.2.RELEASE&amp;quot;&#xD;
+}&#xD;
+}&#xD;
+&#xD;
+repositories {&#xD;
+maven {&#xD;
+url &amp;#39;https://repo.spring.io/milestone&amp;#39;&#xD;
+}&#xD;
+}&#xD;
+&#xD;
+apply plugin: &amp;quot;io.spring.dependency-management&amp;quot;&#xD;
+&#xD;
+dependencyManagement {&#xD;
+imports {&#xD;
+mavenBom &amp;#39;org.springframework.cloud:spring-cloud-dependencies:2021.0.0-M1&amp;#39;&#xD;
+}&#xD;
+}&#xD;
+&#xD;
+dependencies {&#xD;
+compile &amp;#39;org.springframework.cloud:spring-cloud-starter-config&amp;#39;&#xD;
+compile &amp;#39;org.springframework.cloud:spring-cloud-starter-netflix-eureka-client&amp;#39;&#xD;
+...&#xD;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>A Bootiful Podcast: Microsoft's Asir V. Selvasingh on Spring Boot, Spring Cloud, Microsoft Azure, and Azure Spring Cloud</title>
     <link rel="alternate" href="https://spring.io/blog/2021/07/29/a-bootiful-podcast-microsoft-s-asir-v-selvasingh-on-spring-boot-spring-cloud-microsoft-azure-and-azure-spring-cloud" />
@@ -580,19 +793,6 @@ dependencies {&#xD;
   //...&#xD;
 }
 &lt;/code&gt;&lt;/pre&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Tips: Spring Cloud Square</title>
-    <link rel="alternate" href="https://spring.io/blog/2021/07/07/spring-tips-spring-cloud-square" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2021-07-01:4483</id>
-    <updated>2021-07-07T07:00:00Z</updated>
-    <content type="html">&lt;p&gt;Hi, Spring fans! In this installment, Spring Developer Advocate &lt;a href="https://twitter.com/starbuxman"&gt;Josh Long (@starbuxman)&lt;/a&gt; looks at how to build smarter HTTP clients for your Spring Boot microservices with Spring Cloud Square, Retrofit, and OKHTTP. &lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/G8R-tEK18BY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
 </feed>

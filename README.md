@@ -10,6 +10,7 @@ This a dynamic REST API designed by David Estrada, called "Cities Lived In," whi
  * Spring Data JPA
  * Spring REST
  * JSON
+ * Postman
  * Conditionals
  * Object-Oriented Design
  * Try-Catch Statements
@@ -17,9 +18,11 @@ This a dynamic REST API designed by David Estrada, called "Cities Lived In," whi
  * Gradle
  * MySQL Workbench
 
-
 ### Spring REST Perks
 Spring REST is a web framework that simplifies the process of creating RESTful (Representational State Transfer) web services. In a REST API, a controller method returns data directly to the client. Spring even provides shortcuts for _@RequestMapping_. Since REST controllers deal with the full variety of HTTP verbs, these shortcuts are more convenient. We can also choose to put both @RequestMapping and @ResponseBody annotations during the controller class declaration to precede every endpoint method. In this application, I used _@RequestMapping("api")_.
+
+### How To Run
+Currently, this application has no front-end implementation. I have been using Postman API client to test my REST API. In the following weeks, I will be including JavaScript and Angular to the REST application. 
 
 ### Lessons Learned
 I learned how to properly utilize Spring Boot and Spring REST frameworks to optimize configuration, while implementing the proper annotations and logic to perform basic RESTful services of a dynamic REST api. I learned how REST is aptly named because its clients and servers retrieve and _transfer representations_ of resource state. I learned about _data serialization_ and how we translate an object's state to a sequence of bytes that can be saved or transmitted, allowing for a copy of the original object to be constructed. In this application, I used _JSON (JavaScript Object Notation)_.
