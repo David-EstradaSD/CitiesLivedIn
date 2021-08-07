@@ -6,6 +6,7 @@ window.addEventListener('load', function(e) {
 
 function run() {	
 	loadCitiesLived();
+// this is for Adding a New City
 	document.newCityForm.newCityBtn
 	.addEventListener('click', function(event) {
 		event.preventDefault();
@@ -18,6 +19,24 @@ function run() {
 			country : cfm.country.value
 		};
 		addNewCity(newCity);
+	});
+// this is for Updating a City 
+	document.updateCityForm.updateCityBtn
+	.addEventListener('click', function(e) {
+		e.preventDefault();
+		let ufm = document.updateCityForm;
+		let updatedCity = {
+			name : ufm.name.value,
+			address : ufm.address.value,
+			state : ufm.state.value,
+			postalCode : ufm.postalCode.value,
+			country : ufm.country.value
+		};
+		updateCity(updatedCity);
+	});
+// this is for Deleting a City
+	document.updateCityForm.updateCityBtn
+	.addEventListener('click', deleteCity() {
 	});
 }
 
@@ -62,7 +81,7 @@ function displayCitiesLived(citiesLived) {
 	tr.appendChild(th)
 	for (const city of citiesLived) {
 		let td = document.createElement('td');
-		let btn = document.createElement('button');
+		let deleteBtn = document.getElementById('deleteBtn');
 		tr = document.createElement('tr');
 		table.appendChild(tr);
 		tr.appendChild(td);
@@ -70,6 +89,7 @@ function displayCitiesLived(citiesLived) {
 		td = document.createElement('td');
 		tr.appendChild(td);
 		td.textContent = city.state;
+		tr.appendChild(deleteBtn);
 	}
 }
 
@@ -94,12 +114,14 @@ function addNewCity(city) {
 }
 // TODO: COMPLETE LOGIC 
 function updateCity(city) {
+	let div = document.getElementById('citiesList');
 	let xhr = new XMLHttpRequest();
 	xhr.open('PUT', 'api/cities');
 	xhr.onreadystatechange = function() {
 		if (xhr.readyState === 4) {
 			if (xhr.status === 200) {
-
+			div.textContent = '';
+			loadCitiesLived();
 			location.reload();
 		} else {
 			let newCityh2 = document.createElement('h2');
@@ -108,7 +130,9 @@ function updateCity(city) {
 		}
 	  }
 	};
-	xhr.send();
+	xhr.setRequestHeader("Content-type", "application/json");
+	let updatedCityJson = JSON.stringify(city);
+	xhr.send(updatedCityJson);
 }
 // TODO: COMPLETE LOGIC
 function deleteCity(cityId) {

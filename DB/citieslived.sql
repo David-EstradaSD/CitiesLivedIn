@@ -82,12 +82,12 @@ SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 -- -----------------------------------------------------
 START TRANSACTION;
 USE `citiesliveddb`;
-INSERT INTO `city` (`id`, `name`, `address`, `state`, `postal_code`, `country`) VALUES (1, 'Salinas', '731 Geneva Way', 'California', '93907', 'United States');
+INSERT INTO `city` (`id`, `name`, `address`, `state`, `postal_code`, `country`) VALUES (1, 'Salinas', '123 Paradise Way', 'California', '93907', 'United States');
 INSERT INTO `city` (`id`, `name`, `address`, `state`, `postal_code`, `country`) VALUES (2, 'San Diego', '11513 Windy Ridge Way', 'California', '92126', 'United States');
 INSERT INTO `city` (`id`, `name`, `address`, `state`, `postal_code`, `country`) VALUES (3, 'Jacksonville', '2917 Algonquin Ave', 'Florida', '32210', 'United States');
 INSERT INTO `city` (`id`, `name`, `address`, `state`, `postal_code`, `country`) VALUES (4, 'Orange Park', '198 Arora Blvd', 'Florida', '32073', 'United States');
 INSERT INTO `city` (`id`, `name`, `address`, `state`, `postal_code`, `country`) VALUES (5, 'Fruit Cove', '118 Queen Victoria Ave', 'Florida', '32259', 'United States');
-INSERT INTO `city` (`id`, `name`, `address`, `state`, `postal_code`, `country`) VALUES (6, 'Homestead', '1742 NE 8th Street', 'Florida', '33033', 'United States');
+INSERT INTO `city` (`id`, `name`, `address`, `state`, `postal_code`, `country`) VALUES (6, 'Florida City', '1742 NE 8th Street', 'Florida', '33033', 'United States');
 INSERT INTO `city` (`id`, `name`, `address`, `state`, `postal_code`, `country`) VALUES (7, 'Homestead', '1413 SE 26th Ave', 'Florida', '33035', 'United States');
 
 COMMIT;
