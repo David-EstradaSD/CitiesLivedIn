@@ -4694,3 +4694,1189 @@ Binding(COMMAND+SHIFT+C,
 
 !ENTRY Activator 1 0 2021-08-02 08:12:51.256
 !MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-02 12:13:05.159
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 12:13:06.538
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.XaOCHwLV
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 12:13:06.539
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.XaOCHwLV
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 12:13:06.539
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-02 12:13:06.539
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.XaOCHwLV => OK
+!SESSION 2021-08-06 13:26:42.506 -----------------------------------------------
+eclipse.buildId=4.19.0.I20210303-1800
+java.version=15.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/ansaty/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/ansaty/.eclipse_keyring
+
+!ENTRY org.eclipse.ui 2 0 2021-08-06 13:27:01.096
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-08-06 13:27:01.096
+!MESSAGE Cannot bind to an undefined command: plug-in='com.genuitec.eclipse.theming.ui', id='com.genuitec.myeclipse.help.darktheme.commandid'
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2021-08-06 13:27:01.578
+!MESSAGE A DevStyle Theme is being activated on this workspace; preparing colors and configuration
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2021-08-06 13:27:01.598
+!MESSAGE DevStyle has archived current color configurations to alternate preferences - will be restored when switching out of the DevStyle Theme
+
+!ENTRY org.eclipse.jface 2 0 2021-08-06 13:27:03.282
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-06 13:27:03.282
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@39c437e9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7049d079,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jface 2 0 2021-08-06 13:27:08.353
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-06 13:27:08.353
+!MESSAGE A conflict occurred for COMMAND+SHIFT+C:
+Binding(COMMAND+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@51bccbc3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(COMMAND+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@41719f09,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY Activator 1 0 2021-08-06 13:27:08.375
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY org.eclipse.ui.navigator 2 0 2021-08-06 13:27:11.026
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui.navigator 2 0 2021-08-06 13:27:11.026
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY net.resheim.eclipse.launcher.core 1 0 2021-08-06 13:27:27.732
+!MESSAGE Launching new Eclipse instance with "open -n /Applications/Eclipse.app --args -vm /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_15.0.2.v20210201-0955/jre/lib/libjli.dylib -os macosx -ws cocoa -arch x86_64 -showsplash -launcher /Applications/Eclipse.app/Contents/MacOS/eclipse -name Eclipse --launcher.library /Applications/Eclipse.app/Contents/MacOS//../Eclipse/plugins/org.eclipse.equinox.launcher.cocoa.macosx.x86_64_1.2.100.v20210209-1541/eclipse_11305.so -startup /Applications/Eclipse.app/Contents/MacOS//../Eclipse/plugins/org.eclipse.equinox.launcher_1.6.100.v20201223-0822.jar --launcher.appendVmargs -product org.eclipse.epp.package.jee.product -keyring /Users/ansaty/.eclipse_keyring -data /Users/ansaty/SD/Java/VideoStore -vmargs -Dosgi.requiredJavaVersion=11 -Dosgi.instance.area.default=@user.home/eclipse-workspace -Dsun.java.command=Eclipse -XX:+UseG1GC -XX:+UseStringDeduplication --add-modules=ALL-SYSTEM -XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts -Dosgi.requiredJavaVersion=11 -Dosgi.dataAreaRequiresExplicitInit=true -Dorg.eclipse.swt.graphics.Resource.reportNonDisposed=true -Xms256m -Xmx2048m --add-modules=ALL-SYSTEM -Xdock:icon=../Resources/Eclipse.icns -XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts -Djava.class.path=/Applications/Eclipse.app/Contents/MacOS//../Eclipse/plugins/org.eclipse.equinox.launcher_1.6.100.v20201223-0822.jar "
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 13:28:30.007
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 13:28:30.008
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@257fe516[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=958)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 13:28:30.010
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 13:28:30.036
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 13:28:31.962
+!MESSAGE Boot LS startup time from start to initialized: 1945ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 13:28:32.054
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.JxkwIcfcisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 13:28:32.057
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 13:28:32.058
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 13:28:32.059
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 13:28:32.059
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 13:28:32.059
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.JxkwIcfc => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 13:28:32.065
+!MESSAGE classpath=117 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 13:28:32.066
+!MESSAGE buffering callback sts4.classpath.JxkwIcfc CitiesLived false 117
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 13:28:32.067
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 13:28:32.068
+!MESSAGE classpath=53 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 13:28:32.068
+!MESSAGE buffering callback sts4.classpath.JxkwIcfc JPACitiesLived false 53
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 13:28:32.069
+!MESSAGE executing callback sts4.classpath.JxkwIcfc 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 13:28:32.466
+!MESSAGE executing callback sts4.classpath.JxkwIcfc SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 13:28:34.398
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.JxkwIcfc
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 13:28:34.399
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.JxkwIcfc
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 13:28:34.399
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 13:28:34.400
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.JxkwIcfc => OK
+
+!ENTRY Activator 1 0 2021-08-06 13:28:42.304
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:28:47.845
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:28:48.006
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:29:05.279
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:29:05.437
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:29:23.316
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:29:23.405
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:29:23.525
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:29:44.437
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:29:45.211
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:29:54.200
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:29:54.315
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:29:59.882
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:30:00.879
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:30:29.929
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:30:33.749
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:31:16.143
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:31:16.259
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:31:29.140
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:31:29.343
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:31:29.377
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-08-06 13:31:29.678
+!MESSAGE [Info]	ESLint server running in node v14.15.4
+
+!ENTRY Activator 1 0 2021-08-06 13:31:30.354
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-08-06 13:31:30.503
+!MESSAGE [Error]	[tsserver] env: node: No such file or directory
+
+
+!ENTRY Activator 1 0 2021-08-06 13:31:38.648
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:31:39.597
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:31:43.911
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:31:44.626
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:31:52.288
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:31:52.528
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:31:52.809
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:31:54.551
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:32:11.536
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:32:12.164
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:32:12.379
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:32:14.060
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:32:17.068
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:32:17.323
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:32:23.483
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:32:24.177
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:32:32.884
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:32:33.444
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 13:33:15.123
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 13:33:15.123
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@257fe516[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=958)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 13:33:15.124
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 13:33:16.985
+!MESSAGE Boot LS startup time from start to initialized: 1861ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 13:33:17.074
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.pWBVOZXyisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 13:33:17.074
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 13:33:17.074
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 13:33:17.074
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 13:33:17.075
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 13:33:17.075
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.pWBVOZXy => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 13:33:17.077
+!MESSAGE classpath=117 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 13:33:17.078
+!MESSAGE buffering callback sts4.classpath.pWBVOZXy CitiesLived false 117
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 13:33:17.078
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 13:33:17.079
+!MESSAGE classpath=53 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 13:33:17.080
+!MESSAGE buffering callback sts4.classpath.pWBVOZXy JPACitiesLived false 53
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 13:33:17.080
+!MESSAGE executing callback sts4.classpath.pWBVOZXy 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 13:33:17.394
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.pWBVOZXy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 13:33:17.395
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.pWBVOZXy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 13:33:17.395
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 13:33:17.395
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.pWBVOZXy => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 13:33:17.396
+!MESSAGE executing callback sts4.classpath.pWBVOZXy SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-08-06 13:33:17.482
+!MESSAGE [Info]	ESLint server running in node v14.15.4
+
+!ENTRY Activator 1 0 2021-08-06 13:49:19.440
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:49:19.624
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:50:10.844
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:50:10.964
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:52:44.888
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:52:45.040
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:53:00.948
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:53:01.070
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:53:39.101
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:53:39.234
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:54:28.123
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:54:28.243
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:55:20.583
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:55:20.888
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:55:28.235
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:55:28.348
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:56:04.427
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:56:05.167
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:56:05.971
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:56:06.664
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:56:07.665
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:56:08.031
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:56:12.598
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:56:13.593
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:56:14.127
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:56:15.118
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:56:27.267
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:56:28.358
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 13:56:28.481
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:03:39.812
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:03:40.089
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:03:40.247
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:03:40.329
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 14:04:01.719
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 14:04:01.719
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@257fe516[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=958)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 14:04:01.720
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 14:04:03.753
+!MESSAGE Boot LS startup time from start to initialized: 2033ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 14:04:03.825
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.YdnFHMxrisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 14:04:03.825
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 14:04:03.825
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 14:04:03.825
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 14:04:03.826
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 14:04:03.826
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.YdnFHMxr => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 14:04:03.828
+!MESSAGE classpath=117 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 14:04:03.829
+!MESSAGE buffering callback sts4.classpath.YdnFHMxr CitiesLived false 117
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 14:04:03.829
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 14:04:03.830
+!MESSAGE classpath=53 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 14:04:03.831
+!MESSAGE buffering callback sts4.classpath.YdnFHMxr JPACitiesLived false 53
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 14:04:03.831
+!MESSAGE executing callback sts4.classpath.YdnFHMxr 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 14:04:04.138
+!MESSAGE executing callback sts4.classpath.YdnFHMxr SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-08-06 14:04:15.915
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:04:16.033
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:05:39.990
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:05:40.107
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:05:40.714
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:05:41.133
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:07:17.829
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:07:17.941
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:07:18.565
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:07:19.135
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:07:20.081
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:07:20.279
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:08:46.544
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:08:46.661
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:08:47.313
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:08:47.769
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY org.eclipse.lsp4e 1 0 2021-08-06 14:08:47.974
+!MESSAGE [Info]	ESLint server running in node v14.15.4
+
+!ENTRY Activator 1 0 2021-08-06 14:09:06.638
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:09:06.752
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:09:24.775
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:09:24.890
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:24:39.502
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:24:39.706
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:24:39.858
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:24:56.659
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:24:56.770
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:25:50.894
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:25:51.005
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:28:26.503
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:28:26.624
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:29:33.770
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:29:33.885
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:31:03.738
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:31:03.852
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:32:57.063
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:32:57.255
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:33:45.530
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:33:45.645
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:34:23.167
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:34:23.281
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:34:43.561
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:34:43.674
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:35:33.967
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:35:34.078
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:36:04.772
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:36:04.887
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:36:33.856
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:36:33.970
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:36:34.208
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:37:02.942
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:37:03.060
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:37:03.281
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:38:15.416
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:38:15.531
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:38:55.962
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:38:56.076
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:39:23.010
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:39:23.125
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:42:02.184
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:42:02.394
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:45:46.426
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:45:46.557
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:46:29.112
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:46:29.256
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:47:27.389
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:47:27.526
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:47:46.637
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:47:46.759
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:48:18.948
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:48:19.076
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:48:31.225
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:48:31.344
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY net.resheim.eclipse.launcher.core 1 0 2021-08-06 14:49:24.604
+!MESSAGE Launching new Eclipse instance with "open -n /Applications/Eclipse.app --args -vm /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_15.0.2.v20210201-0955/jre/lib/libjli.dylib -os macosx -ws cocoa -arch x86_64 -showsplash -launcher /Applications/Eclipse.app/Contents/MacOS/eclipse -name Eclipse --launcher.library /Applications/Eclipse.app/Contents/MacOS//../Eclipse/plugins/org.eclipse.equinox.launcher.cocoa.macosx.x86_64_1.2.100.v20210209-1541/eclipse_11305.so -startup /Applications/Eclipse.app/Contents/MacOS//../Eclipse/plugins/org.eclipse.equinox.launcher_1.6.100.v20201223-0822.jar --launcher.appendVmargs -product org.eclipse.epp.package.jee.product -keyring /Users/ansaty/.eclipse_keyring -data /Users/ansaty/SD/Java/MidTermProject -vmargs -Dosgi.requiredJavaVersion=11 -Dosgi.instance.area.default=@user.home/eclipse-workspace -Dsun.java.command=Eclipse -XX:+UseG1GC -XX:+UseStringDeduplication --add-modules=ALL-SYSTEM -XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts -Dosgi.requiredJavaVersion=11 -Dosgi.dataAreaRequiresExplicitInit=true -Dorg.eclipse.swt.graphics.Resource.reportNonDisposed=true -Xms256m -Xmx2048m --add-modules=ALL-SYSTEM -Xdock:icon=../Resources/Eclipse.icns -XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts -Djava.class.path=/Applications/Eclipse.app/Contents/MacOS//../Eclipse/plugins/org.eclipse.equinox.launcher_1.6.100.v20201223-0822.jar "
+
+!ENTRY Activator 1 0 2021-08-06 14:51:19.826
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 14:51:19.985
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 15:02:13.391
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 15:02:13.648
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 15:02:13.905
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 15:06:31.565
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 15:06:31.690
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 15:06:31.827
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 15:06:31.901
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 15:06:31.978
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 15:10:15.645
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 15:10:15.887
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 15:10:16.091
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 15:10:16.231
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 15:15:22.871
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 15:15:22.987
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 15:15:23.197
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 15:15:23.272
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 15:17:01.477
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 15:17:01.594
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 15:18:54.479
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 15:18:54.604
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 15:20:48.673
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 15:20:48.794
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 15:29:23.385
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 15:29:23.596
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 15:29:23.713
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 15:29:23.808
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 15:29:23.926
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 15:35:51.691
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 15:35:51.850
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 15:35:52.098
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 15:50:48.056
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 15:50:48.179
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 15:50:48.493
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 15:50:49.201
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-08-06 15:57:45.178
+!MESSAGE Error occured processing 'com.skilldistillery.CitiesLivedApplication'
+!STACK 0
+org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
+	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
+	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
+	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
+	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
+	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2633)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
+	... 22 more
+
+!ENTRY Activator 1 0 2021-08-06 16:08:08.916
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 16:08:09.060
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 16:08:09.246
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 16:08:09.333
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 16:09:13.046
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 16:09:13.161
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 16:09:57.526
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 16:09:57.643
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 16:18:17.521
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 16:18:17.673
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 16:18:17.803
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 16:18:17.842
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 16:18:17.929
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 16:19:12.775
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 16:19:12.895
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 16:19:39.697
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 16:19:39.816
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 16:19:40.061
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 16:24:53.437
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 16:24:53.567
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 16:24:53.779
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 16:34:06.394
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 16:34:06.621
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 16:34:06.801
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 16:34:06.850
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 16:34:06.929
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY net.resheim.eclipse.launcher.core 1 0 2021-08-06 16:45:23.375
+!MESSAGE Launching new Eclipse instance with "open -n /Applications/Eclipse.app --args -vm /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_15.0.2.v20210201-0955/jre/lib/libjli.dylib -os macosx -ws cocoa -arch x86_64 -showsplash -launcher /Applications/Eclipse.app/Contents/MacOS/eclipse -name Eclipse --launcher.library /Applications/Eclipse.app/Contents/MacOS//../Eclipse/plugins/org.eclipse.equinox.launcher.cocoa.macosx.x86_64_1.2.100.v20210209-1541/eclipse_11305.so -startup /Applications/Eclipse.app/Contents/MacOS//../Eclipse/plugins/org.eclipse.equinox.launcher_1.6.100.v20201223-0822.jar --launcher.appendVmargs -product org.eclipse.epp.package.jee.product -keyring /Users/ansaty/.eclipse_keyring -data /Users/ansaty/SD/Java/MidTermProject -vmargs -Dosgi.requiredJavaVersion=11 -Dosgi.instance.area.default=@user.home/eclipse-workspace -Dsun.java.command=Eclipse -XX:+UseG1GC -XX:+UseStringDeduplication --add-modules=ALL-SYSTEM -XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts -Dosgi.requiredJavaVersion=11 -Dosgi.dataAreaRequiresExplicitInit=true -Dorg.eclipse.swt.graphics.Resource.reportNonDisposed=true -Xms256m -Xmx2048m --add-modules=ALL-SYSTEM -Xdock:icon=../Resources/Eclipse.icns -XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts -Djava.class.path=/Applications/Eclipse.app/Contents/MacOS//../Eclipse/plugins/org.eclipse.equinox.launcher_1.6.100.v20201223-0822.jar "
+
+!ENTRY Activator 1 0 2021-08-06 16:47:42.172
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 16:47:42.328
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 16:47:42.795
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 16:47:43.355
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 16:54:42.411
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 16:54:42.555
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 16:54:42.814
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 16:54:42.924
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 16:54:43.682
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 16:55:57.018
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 16:55:57.155
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 16:56:44.697
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 16:56:44.826
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 16:58:59.113
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 16:58:59.241
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 16:59:20.069
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 16:59:20.199
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 16:59:34.647
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 16:59:34.777
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:00:01.558
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:00:01.692
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:00:51.879
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:00:52.029
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:00:52.152
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:08:44.704
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:08:44.967
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:09:44.128
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:09:44.260
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:10:10.606
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:10:10.767
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:11:44.991
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:11:45.123
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:12:21.648
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:12:21.777
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:13:26.167
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:13:26.308
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:14:07.688
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:14:07.813
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:14:27.395
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:14:27.520
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:14:46.470
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:14:46.597
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:15:28.448
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:15:28.578
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:15:54.196
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:15:54.317
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:16:13.098
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:16:13.279
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:18:22.782
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:18:22.905
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:18:48.049
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:18:48.178
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:18:58.065
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:18:58.241
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:19:48.210
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:19:48.330
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:20:04.073
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:20:04.207
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:49:15.398
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:49:15.602
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:58:31.381
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:58:31.543
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:58:32.574
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:58:32.914
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:58:33.001
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:58:33.586
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-06 17:59:29.814
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 17:59:29.907
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.YdnFHMxr
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 17:59:29.907
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.YdnFHMxr
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 17:59:29.908
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-06 17:59:29.908
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.YdnFHMxr => OK
+!SESSION 2021-08-07 09:11:47.476 -----------------------------------------------
+eclipse.buildId=4.19.0.I20210303-1800
+java.version=15.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/ansaty/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/ansaty/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2021-08-07 09:12:34.401
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-07 09:12:34.401
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@39a2adf9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@27ae8ce3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui.navigator 2 0 2021-08-07 09:12:39.785
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui.navigator 2 0 2021-08-07 09:12:39.785
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY Activator 1 0 2021-08-07 09:12:39.787
+!MESSAGE Has main method computation for project 'CitiesLived'
