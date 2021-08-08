@@ -3,13 +3,13 @@
 ### Full-Stack Spring/REST/JPA Project for Skill Distillery
 
 ### Overview
-This a dynamic REST API designed by David Estrada, called "Cities Lived In," which acts as an event tracker. It utilizes Spring Data JPA's repositories to provide CRUD functionality and Spring REST to simplify the implementation of RESTful services in the web application.
+This a dynamic REST API designed by David Estrada, called "Cities Lived In," which acts as an event tracker. It utilizes Spring Data JPA's repositories to provide CRUD functionality and Spring REST to simplify the implementation of RESTful services in the web application. The application's frontend and design comes from JavaScript, HTML, CSS and some Bootstrap. It is currently being deployed locally.
 
 ### Technologies Used
  * Coding Languages: Java, JavaScript, SQL, HTML, CSS
  * Spring Data JPA
  * Spring REST
- * AJAX (Asynchronous JavaScript XML)
+ * AJAX (Asynchronous JavaScript XML) & XHR (XMLHttpRequest)
  * JSON (JavaScript Object Notation)
  * Postman
  * Conditionals
@@ -20,17 +20,20 @@ This a dynamic REST API designed by David Estrada, called "Cities Lived In," whi
  * IDEs: Eclipse, VS Code, Atom
  * MySQL Workbench
 
-### AJAX Functionality
-I used JavaScript to add scripts to this web application.
+### AJAX Perks
+By utilizing JavaScript's XMLHttpRequest, I was able to send asynchronous requests to my Java controllers. This provides several benefits, such as reduced server hits and network load, faster page renders and improved response times, an overall improved user experience, and asynchronous processing.
 
 ### Spring REST Perks
 Spring REST is a web framework that simplifies the process of creating RESTful (Representational State Transfer) web services. In a REST API, a controller method returns data directly to the client. Spring even provides shortcuts for _@RequestMapping_. Since REST controllers deal with the full variety of HTTP verbs, these shortcuts are more convenient. We can also choose to put both @RequestMapping and @ResponseBody annotations during the controller class declaration to precede every endpoint method. In this application, I used _@RequestMapping("api")_.
 
+### Front-End Design
+All of the front-end for this application was designed using JavaScript, HTML, and CSS (with a little bit of Bootstrap). Specifically, I used JavaScript to dynamically create forms, tables, and other HTML elements as needed. In the coming weeks, this project will feature Angular and have a much better design.
+
 ### How To Run
-Currently, this application runs on a local apache server. All of the front-end was designed using JavaScript, HTML, and CSS (with a little bit of Bootstrap). Next week I will be adding Angular to the REST application and deploying it to my AWS server.
+Currently, this application runs on a local apache server. Next week I will be adding Angular to the REST application and deploying it to my AWS server.
 
 ### Lessons Learned
-I learned how to properly utilize Spring Boot and Spring REST frameworks to optimize configuration, while implementing the proper annotations and logic to perform basic RESTful services of a dynamic REST api. I learned how REST is aptly named because its clients and servers retrieve and _transfer representations_ of resource state. I learned about _data serialization_ and how we translate an object's state to a sequence of bytes that can be saved or transmitted, allowing for a copy of the original object to be constructed. In this application, I used _JSON (JavaScript Object Notation)_.
+I learned how to properly utilize Spring Boot and Spring REST frameworks to optimize configuration, while implementing the proper annotations and logic to perform basic RESTful services of a dynamic REST api. I learned how REST is aptly named because its clients and servers retrieve and _transfer representations_ of resource state. I learned about _data serialization_ and how we translate an object's state to a sequence of bytes that can be saved or transmitted, allowing for a copy of the original object to be constructed. I learned a great deal regarding _JavaScript_ and _Asynchronous JavaScript XML programming_; more specifically, how to dynamically create HTML elements and how to send CRUD requests with XMLHttpRequest. I also used _JSON (JavaScript Object Notation)_ and its methods _parse_ and _stringify_ to send responses with JavaScript.
 
 ### REST Endpoints
 
