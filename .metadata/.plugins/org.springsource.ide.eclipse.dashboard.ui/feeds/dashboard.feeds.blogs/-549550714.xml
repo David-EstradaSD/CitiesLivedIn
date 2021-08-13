@@ -5,7 +5,32 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2021-08-05T16:30:00Z</updated>
+  <updated>2021-08-10T07:00:00Z</updated>
+  <entry>
+    <title>This Week in Spring - August 10th, 2021</title>
+    <link rel="alternate" href="https://spring.io/blog/2021/08/10/this-week-in-spring-august-10th-2021" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2021-08-10:4513</id>
+    <updated>2021-08-10T07:00:00Z</updated>
+    <content type="html">&lt;p&gt;Hi, Spring fans! How&amp;rsquo;re you doing? I hope you&amp;rsquo;re doing well. You know, I&amp;rsquo;ve been thinking a lot about how to retain that zen-like peace that comes with a vacation spent on the beach. I got back from Hawaii eight days ago and I found it to be so very beautiful. Nature really sold it for me; the fresh air is &lt;em&gt;everything&lt;/em&gt;. If you don&amp;rsquo;t have ready access to nature - if you, like me, are in a giant city with the ongoing sound of car horns (&amp;ldquo;klaxons&amp;rdquo;), fire engines, traffic, and everything else that accompanies any big city - then may I invite you to breathe with me? &lt;/p&gt;
+&lt;p&gt;Just sit still for 30 seconds. Focus on these words. Inhale. Take a big, deep breath, and then hold it in for a few seconds. Then exhale. When was the last time you did that? I don&amp;rsquo;t do that nearly enough. If I spend 30 or 60 seconds breathing, it gives me a chance to reset. To close the mental browser tabs of my mind. I suppose that something like this, or better, is what people get out of meditation. I should revisit yoga. Anyway, I hope you too have purged your mental RAM and are ready for a wonderful week&amp;rsquo;s review. There&amp;rsquo;s a ton of stuff to get to so let&amp;rsquo;s dive right in!&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2021/08/04/spring-tips-better-data-driven-applications-with-spring-boot-and-redis"&gt;Spring Tips: Better Data-Driven Applications with Spring Boot and Redis&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;In last week&amp;rsquo;s &lt;a href="https://spring.io/blog/2021/08/05/a-bootiful-podcast-microsoft-s-sean-li-on-azure-spring-boot-azure-spring-cloud-spring-integrations-and-more"&gt;&lt;em&gt;A Bootiful Podcast&lt;/em&gt;, I talked to Microsoft&amp;rsquo;s Sean Li on Azure, Spring Boot, Azure Spring Cloud, Spring integrations and more&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Check out this &lt;a href="https://backpaper0.github.io/spring-graphql-introduction/"&gt;A Japanese-language introduction to Spring GraphQL&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://www.steadybit.com/blog/common-pitfall-using-spring-boots-rest-template"&gt;A common Pitfall of Spring Boot&amp;rsquo;s RestTemplate&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://jmhreif.com/blog/create-data-marvel-sdn/"&gt;Create a Data Marvel with Spring Data Neo4j&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://mobile.twitter.com/kaitoedter/status/1422480556802166825"&gt;Kai Tödter has released 1.0.0 of his HAL Explorer project: check it out&lt;/a&gt;!&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://dev.to/reliably/observing-the-reliability-of-your-java-apps-and-services-with-spring-boot-micrometer-prometheus-reliably-27od"&gt;Observing the Reliability of your Java Apps and Services with Spring Boot, Micrometer, Prometheus &amp;amp; Reliably &lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://m.youtube.com/watch?v=1FuWFOWsgkk&amp;feature=youtu.be"&gt;The Java developer experience on Azure with Visual Studio Code&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://redmonk.com/sogrady/2021/08/05/language-rankings-6-21/"&gt;The RedMonk Programming Language Rankings: June 2021&lt;/a&gt; has a lot of good news for Java developers. Check it out!&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/tlberglund/status/1422950723222794243?s=21"&gt;Everybody, the completely rebooted Confluent Developer portal is now live!&lt;/a&gt; There are tons of great resources for Spring and Kafka developers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>A Bootiful Podcast: Microsoft's Sean Li on Azure, Spring Boot, Azure Spring Cloud, Spring integrations and more</title>
     <link rel="alternate" href="https://spring.io/blog/2021/08/05/a-bootiful-podcast-microsoft-s-sean-li-on-azure-spring-boot-azure-spring-cloud-spring-integrations-and-more" />
@@ -611,33 +636,6 @@ class Person {&#xD;
 &lt;p&gt;Spring Framework &lt;code&gt;5.3.9&lt;/code&gt; includes &lt;a href="https://github.com/spring-projects/spring-framework/releases/tag/v5.3.9"&gt;45 fixes and improvements&lt;/a&gt;. Spring Framework &lt;code&gt;5.2.16&lt;/code&gt; includes &lt;a href="https://github.com/spring-projects/spring-framework/releases/tag/v5.2.16.RELEASE"&gt;12 selected fixes and improvements&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Stay tuned for follow-up Spring Boot releases next week.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://projects.spring.io/spring-framework/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-framework"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-framework/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-framework/docs/5.3.9/spring-framework-reference"&gt;Documentation&lt;/a&gt;&lt;/p&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>This Week in Spring - July 13th, 2021</title>
-    <link rel="alternate" href="https://spring.io/blog/2021/07/13/this-week-in-spring-july-13th-2021" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2021-07-14:4493</id>
-    <updated>2021-07-14T00:00:00Z</updated>
-    <content type="html">&lt;p&gt;Hi, Spring fans! How&amp;rsquo;re you doing? I&amp;rsquo;m heads-down, hurriedly making final preparations for tomorrow&amp;rsquo;s SpringOne Tour episode installment. This is going to be &lt;em&gt;SO MUCH FUN&lt;/em&gt;. Do NOT miss &lt;a href="https://tanzu.vmware.com/developer/tv/springone-tour/0018/"&gt;this show tomorrow morning, 10AM California time&lt;/a&gt;. I&amp;rsquo;ll be there, along with my friends Madhura Bhave, Olga Maciaszek-Sharma, Bella Bai, Whitney Lee, Core Iberkleid, Nate Schutta, and special guest star Angie Jones. &lt;/p&gt;
-&lt;p&gt;We look forward to seeing you there and we&amp;rsquo;ll explore the wide and wonderful world of continuous delivery, testing and more together. &lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;JOOQ 3.15.0 Release &lt;a href="https://blog.jooq.org/2021/07/06/3-15-0-release-with-support-for-r2dbc-nested-row-array-and-multiset-types-5-new-sql-dialects-create-procedure-function-and-trigger-support-and-much-more/"&gt; is out, and includes support for R2DBC (and much more)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Neat! The JRE will be UTF-8 by default instead of dangerously assuming the host operating system&amp;rsquo;s default: &lt;a href="https://github.com/openjdk/jdk/pull/4733"&gt;openjdk/jdk&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2021/07/08/a-bootiful-podcast-matt-raible"&gt;A Bootiful Podcast: Matt Raible&lt;/a&gt; Last week, I talked to Matt Raible, and you can too! I love that guy. So happy he was able to join the show again.&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2021/07/07/spring-tips-spring-cloud-square"&gt;Spring Tips: Spring Cloud Square&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;This is neat: you can run TestNG tests with &lt;a href="https://twitter.com/junitteam/status/1413162607947681794?s=12"&gt;JUnit 5 now&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://twitter.com/piotr_minkowski/status/1413833421747638277?s=12"&gt;Piotr Mińkowski on Twitter: JPAstreamer is a library for expressing JPA/Hibernate queries as Java streams. It can be also integrated with Spring. &lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://twitter.com/probablyrealrob/status/1412960224386949129?s=12"&gt;Apress&amp;rsquo; &lt;em&gt;R2DBC Revealed&lt;/em&gt; book is available for order&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://medium.com/javarevisited/scaling-spring-boot-microservices-81b7e8c61b73"&gt;Scaling Spring Boot Microservices&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Have you seen the lineup for our annual tentpole conference, SpringOne, this &lt;a href="https://springone.io/2021/speakers"&gt; Sep 1–2, 2021&lt;/a&gt;? I&amp;rsquo;ll be there and so will a ton of other amazing people.&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2021/07/09/spring-authorization-server-0-1-2-available-now"&gt;Spring Authorization Server 0.1.2 available now&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2021/07/07/spring-cloud-hoxton-sr12-has-been-released"&gt;Spring Cloud Hoxton.SR12 has been released&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://github.com/backpaper0/spring-graphql-demo"&gt;Check out this cool Spring GraphQL demo project&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
 </feed>
