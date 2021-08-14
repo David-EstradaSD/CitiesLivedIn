@@ -1,5 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
+@import "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css";
+
+html, body, app-root {
+  height: 100%;
+}
 
 body {
   background: url(https://images.unsplash.com/photo-1506672850714-d29ea47995f9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80) no-repeat center center fixed;
@@ -8,6 +13,8 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .titleBar {
@@ -64,4 +71,11 @@ body {
   margin-right: auto;
   margin-left: auto;
   text-align: center;
+}
+
+.citiesCountDiv {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  color: white;
 }

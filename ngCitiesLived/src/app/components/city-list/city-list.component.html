@@ -20,13 +20,17 @@
       <button class="btn btn-outline-light" (click)="displayCity(city)">Details</button>
     </tr>
   </table>
-
-  <br>
 </div>
+
 <div class="addCityButtonDiv" *ngIf="!selected && !selectedAddCity">
   <button class="btn btn-outline-info" (click)="displayAddCityForm(newCity)">Add New City</button>
-  <br>
 </div>
+<br>
+
+<div class="citiesCountDiv" *ngIf="!selected && !selectedAddCity">
+  <h4>Total cities David's lived in: {{getCityCount()}}</h4>
+</div>
+
 
 <div class="row">
   <div id="addCity" class="d-flex justify-content-center addCity col-4">
@@ -107,3 +111,5 @@
     </form>
   </div>
 </div>
+
+
