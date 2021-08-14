@@ -9985,3 +9985,15 @@ Binding(COMMAND+SHIFT+C,
 
 !ENTRY net.resheim.eclipse.launcher.core 1 0 2021-08-14 15:24:42.680
 !MESSAGE Launching new Eclipse instance with "open -n /Applications/Eclipse.app --args -vm /Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_15.0.2.v20210201-0955/jre/lib/libjli.dylib -os macosx -ws cocoa -arch x86_64 -showsplash -launcher /Applications/Eclipse.app/Contents/MacOS/eclipse -name Eclipse --launcher.library /Applications/Eclipse.app/Contents/MacOS//../Eclipse/plugins/org.eclipse.equinox.launcher.cocoa.macosx.x86_64_1.2.100.v20210209-1541/eclipse_11305.so -startup /Applications/Eclipse.app/Contents/MacOS//../Eclipse/plugins/org.eclipse.equinox.launcher_1.6.100.v20201223-0822.jar --launcher.appendVmargs -product org.eclipse.epp.package.jee.product -keyring /Users/ansaty/.eclipse_keyring -data /Users/ansaty/SD/Java/MidTermProject -vmargs -Dosgi.requiredJavaVersion=11 -Dosgi.instance.area.default=@user.home/eclipse-workspace -Dsun.java.command=Eclipse -XX:+UseG1GC -XX:+UseStringDeduplication --add-modules=ALL-SYSTEM -XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts -Dosgi.requiredJavaVersion=11 -Dosgi.dataAreaRequiresExplicitInit=true -Dorg.eclipse.swt.graphics.Resource.reportNonDisposed=true -Xms256m -Xmx2048m --add-modules=ALL-SYSTEM -Xdock:icon=../Resources/Eclipse.icns -XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts -Djava.class.path=/Applications/Eclipse.app/Contents/MacOS//../Eclipse/plugins/org.eclipse.equinox.launcher_1.6.100.v20201223-0822.jar "
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-14 15:51:11.693
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.LiySmEYL
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-14 15:51:11.694
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.LiySmEYL
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-14 15:51:11.694
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-14 15:51:11.695
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.LiySmEYL => OK
