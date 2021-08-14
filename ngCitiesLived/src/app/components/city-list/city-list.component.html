@@ -1,5 +1,12 @@
-<div id="cityList" class="table table-striped offset-1" *ngIf="! selected">
-  <table>
+<br>
+<div class="row">
+  <div class="titleBar d-flex justify-content-center offset-3 col-4" *ngIf="!selected && !selectedAddCity">
+    <h2>Cities Lived In</h2>
+  </div>
+</div>
+
+<div id="cityList" class="cityList table table-striped" *ngIf="!selected && !selectedAddCity">
+  <table class="cityListTable">
     <thead>
       <tr>
         <th>City</th>
@@ -7,13 +14,96 @@
         <th>Details</th>
       </tr>
     </thead>
-    <tr >
-
-
+    <tr *ngFor="let city of cities">
+      <td>{{city.name}}</td>
+      <td>{{city.state}}</td>
+      <button class="btn btn-outline-light" (click)="displayCity(city)">Details</button>
     </tr>
   </table>
-    <li *ngFor="let city of cities">{{city | json }}</li>
 
+  <br>
+</div>
+<div class="addCityButtonDiv" *ngIf="!selected && !selectedAddCity">
+  <button class="btn btn-outline-info" (click)="displayAddCityForm(newCity)">Add New City</button>
+  <br>
+</div>
 
+<div class="row">
+  <div id="addCity" class="d-flex justify-content-center addCity col-4">
+    <form *ngIf="addCity && selectedAddCity"> <!-- we only want to show this form when selected is NOT TRUE aka not in detailed view-->
+      <h4>Add New City</h4>
+      <label for="city">City</label><br>
+      <input type="text" name="city" [(ngModel)]="newCity.name"><br>
+      <label for="address">Address</label><br>
+      <input type="text" name="address" [(ngModel)]="newCity.address"><br>
+      <label for="state">State</label><br>
+      <input type="text" name="state" [(ngModel)]="newCity.state"><br>
+      <label for="postalCode">ZIP Code</label><br>
+      <input type="text" name="postalCode" [(ngModel)]="newCity.postalCode"><br>
+      <label for="country">Country</label><br>
+      <input type="text" name="country" [(ngModel)]="newCity.country"><br><br>
+      <button class="btn btn-outline-info" (click)="addCity()">Add City</button>
+    </form>
+  </div>
+  <div class="backToHomeButtonDiv" *ngIf="selectedAddCity">
+    <br>
+    <button class="btn btn-outline-light" (click)="displayTable()">Back to Cities List</button>
+  </div>
+</div>
 
+<div class="row">
+    <div class="titleBar d-flex justify-content-center offset-3 col-4" *ngIf="selected && !editCity">
+      <h2>Details of {{selected.name}}</h2>
+    </div>
+  <div class="cityDetails table table-striped" id="cityDetails" *ngIf="selected && !editCity">
+    <!--we add this *ngIf to account for the data type being City and NOT NULL-->
+    <!-- had to modify the *ngIf ^ to account for if there's NOT an editCity-->
+    <table class="cityDetailsTable">
+      <thead>
+        <tr>
+          <th> City </th>
+          <th> Address </th>
+          <th> State </th>
+          <th> ZIP Code </th>
+          <th> Country </th>
+          <th> Update | Delete </th>
+        </tr>
+      </thead>
+      <tr>
+        <td>{{selected.name}}</td>
+        <td>{{selected.address}}</td>
+        <td>{{selected.state}}</td>
+        <td>{{selected.postalCode}}</td>
+        <td>{{selected.country}}</td>
+        <button class="btn btn-outline-success" (click)="setEditCity()">Update</button>
+        <button class="btn btn-outline-danger" (click)="deleteCity(selected.id)">Delete</button>
+      </tr>
+    </table>
+    <div class="backToHomeButtonDiv">
+      <br>
+      <button class="btn btn-outline-light" (click)="displayTable()">Back to Cities List</button>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="titleBar d-flex justify-content-center offset-3 col-4" *ngIf="selected && editCity">
+    <h2>Update {{editCity.name}}</h2>
+  </div>
+  <div id="updateCity" class="updateCity">
+    <form class="updateCityForm col-4" *ngIf="editCity"> <!--only want to show this form if edityCity is called-->
+      <label for="city">City</label><br>
+      <input type="text" name="city" [(ngModel)]="editCity.name"><br>
+      <label for="address">Address</label><br>
+      <input type="text" name="address" [(ngModel)]="editCity.address"><br>
+      <label for="state">State</label><br>
+      <input type="text" name="state" [(ngModel)]="editCity.state"><br>
+      <label for="postalCode">ZIP Code</label><br>
+      <input type="text" name="postalCode" [(ngModel)]="editCity.postalCode"><br>
+      <label for="country">Country</label><br>
+      <input type="text" name="country" [(ngModel)]="editCity.country"><br><br>
+      <button class="btn btn-outline-success" (click)="updateCity(editCity)">Update</button>
+      <button class="btn btn-outline-light offset-1" (click)="editCity = null">Cancel</button> <!--sometimes for click events, we just have to pass an expression, not a function-->
+    </form>
+  </div>
 </div>

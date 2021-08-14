@@ -36,10 +36,19 @@ export class CitiesService {
     );
   }
 
-  public update(city : City) {
-    return this.http.put<City>(this.url + '/' + city.id, city, this.getHttpOptions()).pipe(
+  public create(city : City) {
+    return this.http.post<City>(this.url, city, this.getHttpOptions()).pipe(
       catchError((err : any) => {
-        console.error('CitiesService.update(): error updating city id' + city.id);
+        console.error('CitiesService.create(): error creating city');
+        return throwError(err);
+      })
+    );
+  }
+
+  public update(city : City) {
+    return this.http.put<City>(this.url, city, this.getHttpOptions()).pipe(
+      catchError((err : any) => {
+        console.error('CitiesService.update(): error updating city id ' + city.id);
         return throwError(err);
       })
     );
