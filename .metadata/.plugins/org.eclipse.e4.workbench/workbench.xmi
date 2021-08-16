@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_HE0uofF1EeuZZp_6pCPCgg" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_HE0uovF1EeuZZp_6pCPCgg" bindingContexts="_HE0uq_F1EeuZZp_6pCPCgg">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.css.core.csssource.source&quot; name=&quot;styles.css&quot; tooltip=&quot;CitiesLived/src/main/resources/static/styles.css&quot;>&#xA;&lt;persistable path=&quot;/CitiesLived/src/main/resources/static/styles.css&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;script.js&quot; tooltip=&quot;CitiesLived/src/main/resources/static/js/script.js&quot;>&#xA;&lt;persistable path=&quot;/CitiesLived/src/main/resources/static/js/script.js&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;City.java&quot; tooltip=&quot;JPACitiesLived/src/main/java/com/skilldistillery/citieslived/entities/City.java&quot;>&#xA;&lt;persistable path=&quot;/JPACitiesLived/src/main/java/com/skilldistillery/citieslived/entities/City.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;SpringBootPropertyEditor&quot; name=&quot;application.properties&quot; tooltip=&quot;CitiesLived/src/main/resources/application.properties&quot;>&#xA;&lt;persistable path=&quot;/CitiesLived/src/main/resources/application.properties&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.buildship.ui.gradlebuildscripteditor&quot; name=&quot;build.gradle&quot; tooltip=&quot;JPACitiesLived/build.gradle&quot;>&#xA;&lt;persistable path=&quot;/JPACitiesLived/build.gradle&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.buildship.ui.gradlebuildscripteditor&quot; name=&quot;settings.gradle&quot; tooltip=&quot;JPACitiesLived/settings.gradle&quot;>&#xA;&lt;persistable path=&quot;/JPACitiesLived/settings.gradle&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CityServiceImpl.java&quot; tooltip=&quot;CitiesLived/src/main/java/com/skilldistillery/citieslived/services/CityServiceImpl.java&quot;>&#xA;&lt;persistable path=&quot;/CitiesLived/src/main/java/com/skilldistillery/citieslived/services/CityServiceImpl.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CityController.java&quot; tooltip=&quot;CitiesLived/src/main/java/com/skilldistillery/citieslived/controllers/CityController.java&quot;>&#xA;&lt;persistable path=&quot;/CitiesLived/src/main/java/com/skilldistillery/citieslived/controllers/CityController.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CityRepository.java&quot; tooltip=&quot;CitiesLived/src/main/java/com/skilldistillery/citieslived/repositories/CityRepository.java&quot;>&#xA;&lt;persistable path=&quot;/CitiesLived/src/main/java/com/skilldistillery/citieslived/repositories/CityRepository.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jpt.jpa.ui.internal.editors.PersistenceEditor&quot; name=&quot;persistence.xml&quot; tooltip=&quot;JPACitiesLived/src/main/resources/META-INF/persistence.xml&quot;>&#xA;&lt;persistable path=&quot;/JPACitiesLived/src/main/resources/META-INF/persistence.xml&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.buildship.ui.gradlebuildscripteditor&quot; name=&quot;settings.gradle&quot; tooltip=&quot;CitiesLived/settings.gradle&quot;>&#xA;&lt;persistable path=&quot;/CitiesLived/settings.gradle&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.buildship.ui.gradlebuildscripteditor&quot; name=&quot;build.gradle&quot; tooltip=&quot;CitiesLived/build.gradle&quot;>&#xA;&lt;persistable path=&quot;/CitiesLived/build.gradle&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.PropertiesFileEditor&quot; name=&quot;log4j.properties&quot; tooltip=&quot;JPACitiesLived/src/main/resources/log4j.properties&quot;>&#xA;&lt;persistable path=&quot;/JPACitiesLived/src/main/resources/log4j.properties&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;index.html&quot; tooltip=&quot;CitiesLived/src/main/resources/static/index.html&quot;>&#xA;&lt;persistable path=&quot;/CitiesLived/src/main/resources/static/index.html&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.css.core.csssource.source&quot; name=&quot;style.css&quot; tooltip=&quot;CitiesLived/src/main/resources/static/js/style.css&quot;>&#xA;&lt;persistable path=&quot;/CitiesLived/src/main/resources/static/js/style.css&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CitiesLivedApplication.java&quot; tooltip=&quot;CitiesLived/src/main/java/com/skilldistillery/CitiesLivedApplication.java&quot;>&#xA;&lt;persistable path=&quot;/CitiesLived/src/main/java/com/skilldistillery/CitiesLivedApplication.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.springsource.ide.eclipse.dashboard.ui.dashboard.elementFactory&quot; id=&quot;org.springsource.ide.eclipse.commons.gettingstarted.dashboard.WelcomeDashboard&quot; name=&quot;Dashboard&quot; tooltip=&quot;Dashboard&quot;>&#xA;&lt;persistable openDashboard=&quot;true&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CityService.java&quot; tooltip=&quot;CitiesLived/src/main/java/com/skilldistillery/citieslived/services/CityService.java&quot;>&#xA;&lt;persistable path=&quot;/CitiesLived/src/main/java/com/skilldistillery/citieslived/services/CityService.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CityDAO.java&quot; tooltip=&quot;CitiesLived/src/main/java/com/skilldistillery/citieslived/data/CityDAO.java&quot;>&#xA;&lt;persistable path=&quot;/CitiesLived/src/main/java/com/skilldistillery/citieslived/data/CityDAO.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.PropertiesFileEditor&quot; name=&quot;log4j.properties&quot; tooltip=&quot;JPACitiesLived/src/test/resources/log4j.properties&quot;>&#xA;&lt;persistable path=&quot;/JPACitiesLived/src/test/resources/log4j.properties&quot;/>&#xA;&lt;/file>&#xA;&lt;/mruList>&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;index.html&quot; tooltip=&quot;CitiesLived/src/main/resources/static/index.html&quot;>&#xA;&lt;persistable path=&quot;/CitiesLived/src/main/resources/static/index.html&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.buildship.ui.gradlebuildscripteditor&quot; name=&quot;build.gradle&quot; tooltip=&quot;CitiesLived/build.gradle&quot;>&#xA;&lt;persistable path=&quot;/CitiesLived/build.gradle&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;SpringBootPropertyEditor&quot; name=&quot;application.properties&quot; tooltip=&quot;CitiesLived/src/main/resources/application.properties&quot;>&#xA;&lt;persistable path=&quot;/CitiesLived/src/main/resources/application.properties&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CitiesLivedApplication.java&quot; tooltip=&quot;CitiesLived/src/main/java/com/skilldistillery/CitiesLivedApplication.java&quot;>&#xA;&lt;persistable path=&quot;/CitiesLived/src/main/java/com/skilldistillery/CitiesLivedApplication.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.css.core.csssource.source&quot; name=&quot;styles.css&quot; tooltip=&quot;CitiesLived/src/main/resources/static/styles.css&quot;>&#xA;&lt;persistable path=&quot;/CitiesLived/src/main/resources/static/styles.css&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;script.js&quot; tooltip=&quot;CitiesLived/src/main/resources/static/js/script.js&quot;>&#xA;&lt;persistable path=&quot;/CitiesLived/src/main/resources/static/js/script.js&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;City.java&quot; tooltip=&quot;JPACitiesLived/src/main/java/com/skilldistillery/citieslived/entities/City.java&quot;>&#xA;&lt;persistable path=&quot;/JPACitiesLived/src/main/java/com/skilldistillery/citieslived/entities/City.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.buildship.ui.gradlebuildscripteditor&quot; name=&quot;build.gradle&quot; tooltip=&quot;JPACitiesLived/build.gradle&quot;>&#xA;&lt;persistable path=&quot;/JPACitiesLived/build.gradle&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.buildship.ui.gradlebuildscripteditor&quot; name=&quot;settings.gradle&quot; tooltip=&quot;JPACitiesLived/settings.gradle&quot;>&#xA;&lt;persistable path=&quot;/JPACitiesLived/settings.gradle&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CityServiceImpl.java&quot; tooltip=&quot;CitiesLived/src/main/java/com/skilldistillery/citieslived/services/CityServiceImpl.java&quot;>&#xA;&lt;persistable path=&quot;/CitiesLived/src/main/java/com/skilldistillery/citieslived/services/CityServiceImpl.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CityController.java&quot; tooltip=&quot;CitiesLived/src/main/java/com/skilldistillery/citieslived/controllers/CityController.java&quot;>&#xA;&lt;persistable path=&quot;/CitiesLived/src/main/java/com/skilldistillery/citieslived/controllers/CityController.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CityRepository.java&quot; tooltip=&quot;CitiesLived/src/main/java/com/skilldistillery/citieslived/repositories/CityRepository.java&quot;>&#xA;&lt;persistable path=&quot;/CitiesLived/src/main/java/com/skilldistillery/citieslived/repositories/CityRepository.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jpt.jpa.ui.internal.editors.PersistenceEditor&quot; name=&quot;persistence.xml&quot; tooltip=&quot;JPACitiesLived/src/main/resources/META-INF/persistence.xml&quot;>&#xA;&lt;persistable path=&quot;/JPACitiesLived/src/main/resources/META-INF/persistence.xml&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.buildship.ui.gradlebuildscripteditor&quot; name=&quot;settings.gradle&quot; tooltip=&quot;CitiesLived/settings.gradle&quot;>&#xA;&lt;persistable path=&quot;/CitiesLived/settings.gradle&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.PropertiesFileEditor&quot; name=&quot;log4j.properties&quot; tooltip=&quot;JPACitiesLived/src/main/resources/log4j.properties&quot;>&#xA;&lt;persistable path=&quot;/JPACitiesLived/src/main/resources/log4j.properties&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.css.core.csssource.source&quot; name=&quot;style.css&quot; tooltip=&quot;CitiesLived/src/main/resources/static/js/style.css&quot;>&#xA;&lt;persistable path=&quot;/CitiesLived/src/main/resources/static/js/style.css&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.springsource.ide.eclipse.dashboard.ui.dashboard.elementFactory&quot; id=&quot;org.springsource.ide.eclipse.commons.gettingstarted.dashboard.WelcomeDashboard&quot; name=&quot;Dashboard&quot; tooltip=&quot;Dashboard&quot;>&#xA;&lt;persistable openDashboard=&quot;true&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CityService.java&quot; tooltip=&quot;CitiesLived/src/main/java/com/skilldistillery/citieslived/services/CityService.java&quot;>&#xA;&lt;persistable path=&quot;/CitiesLived/src/main/java/com/skilldistillery/citieslived/services/CityService.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CityDAO.java&quot; tooltip=&quot;CitiesLived/src/main/java/com/skilldistillery/citieslived/data/CityDAO.java&quot;>&#xA;&lt;persistable path=&quot;/CitiesLived/src/main/java/com/skilldistillery/citieslived/data/CityDAO.java&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.PropertiesFileEditor&quot; name=&quot;log4j.properties&quot; tooltip=&quot;JPACitiesLived/src/test/resources/log4j.properties&quot;>&#xA;&lt;persistable path=&quot;/JPACitiesLived/src/test/resources/log4j.properties&quot;/>&#xA;&lt;/file>&#xA;&lt;/mruList>&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_HE0uovF1EeuZZp_6pCPCgg" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_HWXKkvF1EeuZZp_6pCPCgg" label="%trimmedwindow.label.eclipseSDK" x="12" y="-1055" width="1083" height="891">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_HE0uovF1EeuZZp_6pCPCgg" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_HWXKkvF1EeuZZp_6pCPCgg" label="%trimmedwindow.label.eclipseSDK" x="583" y="-1048" width="1083" height="891">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -280,7 +280,6 @@
                   </children>
                 </children>
                 <children xsi:type="basic:PartStack" xmi:id="_mxL16fF5EeuZZp_6pCPCgg" elementId="org.springframework.ide.eclipse.boot.dash.views.BootDashViewMStack" containerData="3400" selectedElement="_mxL16vF5EeuZZp_6pCPCgg">
-                  <tags>noFocus</tags>
                   <children xsi:type="advanced:Placeholder" xmi:id="_mxL16vF5EeuZZp_6pCPCgg" elementId="org.springframework.ide.eclipse.boot.dash.views.BootDashView" ref="_mxLO0fF5EeuZZp_6pCPCgg" closeable="true">
                     <tags>View</tags>
                     <tags>categoryTag:Spring</tags>
@@ -295,7 +294,7 @@
               </children>
             </children>
             <children xsi:type="basic:PartSashContainer" xmi:id="_mxL17fF5EeuZZp_6pCPCgg" containerData="7500" selectedElement="_mxL2AfF5EeuZZp_6pCPCgg">
-              <children xsi:type="basic:PartSashContainer" xmi:id="_mxL17vF5EeuZZp_6pCPCgg" containerData="6986" selectedElement="_mxL17_F5EeuZZp_6pCPCgg" horizontal="true">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_mxL17vF5EeuZZp_6pCPCgg" containerData="5255" selectedElement="_mxL17_F5EeuZZp_6pCPCgg" horizontal="true">
                 <children xsi:type="advanced:Placeholder" xmi:id="_mxL17_F5EeuZZp_6pCPCgg" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_Hb38sPF1EeuZZp_6pCPCgg"/>
                 <children xsi:type="basic:PartSashContainer" xmi:id="_mxL18PF5EeuZZp_6pCPCgg" toBeRendered="false" containerData="2500">
                   <children xsi:type="basic:PartSashContainer" xmi:id="_mxL18fF5EeuZZp_6pCPCgg" toBeRendered="false" containerData="5000">
@@ -349,7 +348,7 @@
                   </children>
                 </children>
               </children>
-              <children xsi:type="basic:PartStack" xmi:id="_mxL2AfF5EeuZZp_6pCPCgg" elementId="bottom" containerData="3014" selectedElement="_mxL2BvF5EeuZZp_6pCPCgg">
+              <children xsi:type="basic:PartStack" xmi:id="_mxL2AfF5EeuZZp_6pCPCgg" elementId="bottom" containerData="4745" selectedElement="_M_du0fF6EeuZZp_6pCPCgg">
                 <tags>org.eclipse.e4.secondaryDataStack</tags>
                 <tags>Gradle</tags>
                 <tags>active</tags>
@@ -438,33 +437,26 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_Hb38sPF1EeuZZp_6pCPCgg" elementId="org.eclipse.ui.editorss" selectedElement="_Hb38sfF1EeuZZp_6pCPCgg">
-      <children xsi:type="basic:PartStack" xmi:id="_Hb38sfF1EeuZZp_6pCPCgg" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_uUXT4P00EeuTTMLQfrq5nA">
+      <children xsi:type="basic:PartStack" xmi:id="_Hb38sfF1EeuZZp_6pCPCgg" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_9aJWMP6zEeuVcrMLa4FAXw">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
-        <tags>noFocus</tags>
-        <children xsi:type="basic:Part" xmi:id="_BoKCUPrQEeuUT-uLIvtDdA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="CityController.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CityController.java&quot; partName=&quot;CityController.java&quot; title=&quot;CityController.java&quot; tooltip=&quot;CitiesLived/src/main/java/com/skilldistillery/citieslived/controllers/CityController.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/CitiesLived/src/main/java/com/skilldistillery/citieslived/controllers/CityController.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;2553&quot; selectionTopPixel=&quot;738&quot;/>&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="_9aJWMP6zEeuVcrMLa4FAXw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="CitiesLivedApplication.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CitiesLivedApplication.java&quot; partName=&quot;CitiesLivedApplication.java&quot; title=&quot;CitiesLivedApplication.java&quot; tooltip=&quot;CitiesLived/src/main/java/com/skilldistillery/CitiesLivedApplication.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/CitiesLived/src/main/java/com/skilldistillery/CitiesLivedApplication.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;664&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
         </children>
-        <children xsi:type="basic:Part" xmi:id="_48_EMPyLEeurutiY8SAIRw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="City.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;City.java&quot; partName=&quot;City.java&quot; title=&quot;City.java&quot; tooltip=&quot;JPACitiesLived/src/main/java/com/skilldistillery/citieslived/entities/City.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/JPACitiesLived/src/main/java/com/skilldistillery/citieslived/entities/City.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;529&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="_jnFyYP60EeuVcrMLa4FAXw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="application.properties" iconURI="platform:/plugin/org.springframework.tooling.boot.ls/icons/spring_obj.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;SpringBootPropertyEditor&quot; name=&quot;application.properties&quot; partName=&quot;application.properties&quot; title=&quot;application.properties&quot; tooltip=&quot;CitiesLived/src/main/resources/application.properties&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/CitiesLived/src/main/resources/application.properties&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1156&quot; selectionTopPixel=&quot;26&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
-          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>SpringBootPropertyEditor</tags>
         </children>
-        <children xsi:type="basic:Part" xmi:id="_uAvNQP00EeuTTMLQfrq5nA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="script.js" iconURI="platform:/plugin/org.eclipse.ui.editors/icons/full/obj16/file_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;script.js&quot; partName=&quot;script.js&quot; title=&quot;script.js&quot; tooltip=&quot;CitiesLived/src/main/resources/static/js/script.js&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/CitiesLived/src/main/resources/static/js/script.js&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="_lXYrUP60EeuVcrMLa4FAXw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="build.gradle" iconURI="platform:/plugin/org.eclipse.buildship.ui/icons/full/obj16/gradle_file.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.buildship.ui.gradlebuildscripteditor&quot; name=&quot;build.gradle&quot; partName=&quot;build.gradle&quot; title=&quot;build.gradle&quot; tooltip=&quot;CitiesLived/build.gradle&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/CitiesLived/build.gradle&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;447&quot; selectionTopPixel=&quot;26&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
-          <tags>org.eclipse.ui.DefaultTextEditor</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_uUXT4P00EeuTTMLQfrq5nA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="styles.css" iconURI="platform:/plugin/org.eclipse.wst.css.ui/icons/full/obj16/sourceEditor.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.wst.css.core.csssource.source&quot; name=&quot;styles.css&quot; partName=&quot;styles.css&quot; title=&quot;styles.css&quot; tooltip=&quot;CitiesLived/src/main/resources/static/styles.css&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/CitiesLived/src/main/resources/static/styles.css&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;397&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>removeOnHide</tags>
-          <tags>org.eclipse.wst.css.core.csssource.source</tags>
+          <tags>org.eclipse.buildship.ui.gradlebuildscripteditor</tags>
         </children>
       </children>
     </sharedElements>
@@ -558,13 +550,12 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
-      <tags>active</tags>
-      <tags>activeOnClose</tags>
+      <tags>highlighted</tags>
       <menus xmi:id="_M7IBYPF6EeuZZp_6pCPCgg" elementId="org.eclipse.ui.console.ConsoleView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_M7IBYfF6EeuZZp_6pCPCgg" elementId="org.eclipse.ui.console.ConsoleView"/>
+      <toolbar xmi:id="_M7IBYfF6EeuZZp_6pCPCgg" elementId="org.eclipse.ui.console.ConsoleView" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_HhOWwfF1EeuZZp_6pCPCgg" elementId="org.eclipse.ui.views.BookmarkView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Bookmarks" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/bkmrk_nav.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.internal.views.markers.BookmarksView"/>
@@ -728,11 +719,13 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:Gradle</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_M_inUPF6EeuZZp_6pCPCgg" elementId="org.eclipse.buildship.ui.views.executionview">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_M_inUfF6EeuZZp_6pCPCgg" elementId="org.eclipse.buildship.ui.views.executionview" visible="false"/>
+      <toolbar xmi:id="_M_inUfF6EeuZZp_6pCPCgg" elementId="org.eclipse.buildship.ui.views.executionview"/>
     </sharedElements>
     <trimBars xmi:id="_HE0uo_F1EeuZZp_6pCPCgg" elementId="org.eclipse.ui.main.toolbar" contributorURI="platform:/plugin/org.eclipse.platform">
       <children xsi:type="menu:ToolBar" xmi:id="_HZCEEPF1EeuZZp_6pCPCgg" elementId="group.file" toBeRendered="false">
@@ -741,7 +734,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_HZDSMPF1EeuZZp_6pCPCgg" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_QkItsP0mEeuTTMLQfrq5nA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_HFYISPF1EeuZZp_6pCPCgg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_0PJmQP6zEeuVcrMLa4FAXw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_HFYISPF1EeuZZp_6pCPCgg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_HZDSMfF1EeuZZp_6pCPCgg" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -754,7 +747,13 @@
         <tags>toolbarSeparator</tags>
         <children xsi:type="menu:ToolBarSeparator" xmi:id="_HZDSNfF1EeuZZp_6pCPCgg" elementId="additions" toBeRendered="false"/>
       </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_RjBX0P0mEeuTTMLQfrq5nA">
+      <children xsi:type="menu:ToolBar" xmi:id="_1PdMsP6zEeuVcrMLa4FAXw">
+        <tags>Draggable</tags>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_IFHT0P6jEeuyHrIFXQZwRQ" visible="false">
+        <tags>Draggable</tags>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_RjBX0P0mEeuTTMLQfrq5nA" visible="false">
         <tags>Draggable</tags>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_lNErYPyIEeurutiY8SAIRw" visible="false">
@@ -805,7 +804,7 @@
       <children xsi:type="menu:ToolBar" xmi:id="_HigJIPF1EeuZZp_6pCPCgg" elementId="org.eclipse.search.searchActionSet">
         <tags>Draggable</tags>
       </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_hCNO8PF7EeuZZp_6pCPCgg" elementId="org.eclipse.ui.edit.text.actionSet.presentation" visible="false">
+      <children xsi:type="menu:ToolBar" xmi:id="_hCNO8PF7EeuZZp_6pCPCgg" elementId="org.eclipse.ui.edit.text.actionSet.presentation">
         <tags>Draggable</tags>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_HiErUPF1EeuZZp_6pCPCgg" elementId="org.eclipse.wst.server.ui.internal.webbrowser.actionSet" visible="false">
@@ -820,7 +819,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_HZDSOPF1EeuZZp_6pCPCgg" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_QkKi5P0mEeuTTMLQfrq5nA" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_HFXhdvF1EeuZZp_6pCPCgg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_0PLbcP6zEeuVcrMLa4FAXw" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_HFXhdvF1EeuZZp_6pCPCgg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_HZDSOfF1EeuZZp_6pCPCgg" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -871,6 +870,10 @@
     </trimBars>
     <trimBars xmi:id="_HE0uqfF1EeuZZp_6pCPCgg" elementId="org.eclipse.ui.trim.vertical2" contributorURI="platform:/plugin/org.eclipse.platform" toBeRendered="false" side="Right">
       <children xsi:type="menu:ToolControl" xmi:id="_c_RkAPGGEeuZZp_6pCPCgg" elementId="bottom(IDEWindow).(org.eclipse.jdt.ui.JavaPerspective)" toBeRendered="false" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
+        <tags>TrimStack</tags>
+        <tags>Draggable</tags>
+      </children>
+      <children xsi:type="menu:ToolControl" xmi:id="_q8IQ0P61EeuVcrMLa4FAXw" elementId="org.eclipse.ui.editorss(IDEWindow).(org.eclipse.jdt.ui.JavaPerspective)" toBeRendered="false" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
         <tags>TrimStack</tags>
         <tags>Draggable</tags>
       </children>
@@ -1658,7 +1661,7 @@
     <bindings xmi:id="_HF0NOfF1EeuZZp_6pCPCgg" keySequence="ALT+CR" command="_HFWTVvF1EeuZZp_6pCPCgg"/>
   </bindingTables>
   <bindingTables xmi:id="_HGQ5FPF1EeuZZp_6pCPCgg" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" bindingContext="_HE0urvF1EeuZZp_6pCPCgg">
-    <bindings xmi:id="_QIsu4f0mEeuTTMLQfrq5nA" keySequence="M1+W" command="_HGQ5EvF1EeuZZp_6pCPCgg">
+    <bindings xmi:id="_z6xRsP6zEeuVcrMLa4FAXw" keySequence="M1+W" command="_HGQ5EvF1EeuZZp_6pCPCgg">
       <tags>deleted</tags>
     </bindings>
   </bindingTables>

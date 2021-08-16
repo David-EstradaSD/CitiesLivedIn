@@ -33,10 +33,10 @@ By utilizing JavaScript's XMLHttpRequest, I was able to send asynchronous reques
 All of the front-end for this application was designed using Angular, JavaScript, HTML, and CSS (with some help from Bootstrap). Specifically, I used Angular components to dynamically create forms, tables, and other HTML elements as needed.
 
 ### How To Run
-This application has been deployed to my AWS EC2 server and can be found at the following link: _TODO: LINK EC2 link_
+This application has been deployed to my AWS EC2 server and can be found here: http://18.119.82.56:8080/CitiesLived/
 
 ### Lessons Learned
-I learned how to properly utilize Spring Boot and Spring REST frameworks to optimize configuration, while implementing the proper annotations and logic to perform basic RESTful services of a dynamic REST api. I learned how REST is aptly named because its clients and servers retrieve and _transfer representations_ of resource state. I learned about _data serialization_ and how we translate an object's state to a sequence of bytes that can be saved or transmitted, allowing for a copy of the original object to be constructed. I learned a great deal regarding _JavaScript_ and _Asynchronous JavaScript XML programming_; more specifically, how to dynamically create HTML elements and how to send CRUD requests with XMLHttpRequest. I also used _JSON (JavaScript Object Notation)_ and its methods _parse_ and _stringify_ to send responses with JavaScript.
+I learned how to properly utilize Spring Data and Spring REST frameworks to optimize configuration, while implementing the proper annotations and logic to perform basic RESTful services of a dynamic REST api. I learned how REST is aptly named because its clients and servers retrieve and _transfer representations_ of resource state. I learned about _data serialization_ and how we translate an object's state to a sequence of bytes that can be saved or transmitted, allowing for a copy of the original object to be constructed. I learned a great deal regarding _JavaScript_ and _Asynchronous JavaScript XML programming_; more specifically, how to dynamically create HTML elements and how to send CRUD requests with XMLHttpRequest. I also used _JSON (JavaScript Object Notation)_ and its methods _parse_ and _stringify_ to send responses with JavaScript. Lastly, I learned how much smoother front-end design can be developed using JavaScript frameworks such as _Angular_.
 
 ### REST Endpoints
 

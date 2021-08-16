@@ -23,7 +23,7 @@ repositories {
 
 dependencies {
 
-	implementation ('org.springframework.boot:spring-boot-starter-tomcat')
+	implementation ('org.springframework.boot:spring-boot-starter-tomcat') // this is for our deployment to EC2 Tomcat server
 	
 	implementation project(':JPACitiesLived')
 	
