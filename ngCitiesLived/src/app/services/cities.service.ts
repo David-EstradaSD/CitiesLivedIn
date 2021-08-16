@@ -3,6 +3,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable, throwError } from 'rxjs'; // 2 of 2 rxjs imports
 import { catchError } from 'rxjs/operators'; // 1 of 2 rxjs imports
 import { City } from '../models/city';
+import { environment } from 'src/environments/environment';
 
 
 @Injectable({
@@ -11,8 +12,9 @@ import { City } from '../models/city';
 export class CitiesService {
 
   private cities : City[] = [];
-  private baseUrl = 'http://localhost:8084/';
-  private url = this.baseUrl + 'api/cities'
+  // private baseUrl = 'http://localhost:8084/'; // we use environment.ts.baseUrl for our
+  private uriPath = 'api/cities';
+  private url = environment.baseUrl + this.uriPath;
 
   constructor(
     private http : HttpClient
