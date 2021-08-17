@@ -10356,3 +10356,137 @@ Binding(COMMAND+SHIFT+T,
 
 !ENTRY Activator 1 0 2021-08-16 12:22:29.992
 !MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-16 12:26:02.556
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-16 12:26:02.817
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-16 12:26:02.899
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-16 12:26:03.072
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-16 12:26:05.852
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-16 12:57:23.820
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-16 12:57:24.022
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-16 12:57:30.101
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 12:57:40.915
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY Activator 1 0 2021-08-16 12:57:40.917
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 12:57:40.918
+!MESSAGE classpath=117 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 12:57:40.920
+!MESSAGE buffering callback sts4.classpath.fPDRutNN CitiesLived false 117
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 12:57:40.920
+!MESSAGE executing callback sts4.classpath.fPDRutNN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 12:57:40.951
+!MESSAGE executing callback sts4.classpath.fPDRutNN SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-08-16 12:57:41.040
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2021-08-16 12:57:41.484
+!MESSAGE Error occured processing 'com.skilldistillery.CitiesLivedApplication'
+!STACK 0
+org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
+	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
+	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
+	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
+	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
+	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at java.base/java.lang.Class.getDeclaredMethod(Class.java:2633)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
+	... 22 more
+
+!ENTRY Activator 1 0 2021-08-16 13:05:45.094
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-16 13:05:45.241
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-16 13:05:45.727
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-16 13:05:46.295
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-16 13:05:46.684
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-16 13:05:47.278
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 13:05:59.962
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY Activator 1 0 2021-08-16 13:05:59.964
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 13:05:59.966
+!MESSAGE classpath=117 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 13:05:59.967
+!MESSAGE buffering callback sts4.classpath.fPDRutNN CitiesLived false 117
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 13:05:59.968
+!MESSAGE executing callback sts4.classpath.fPDRutNN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 13:05:59.992
+!MESSAGE executing callback sts4.classpath.fPDRutNN SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-08-16 13:06:00.018
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-16 13:06:31.702
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY Activator 1 0 2021-08-16 13:06:31.823
+!MESSAGE Has main method computation for project 'CitiesLived'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 15:19:34.921
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.fPDRutNN
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 15:19:34.923
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.fPDRutNN
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 15:19:34.923
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 15:19:34.924
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.fPDRutNN => OK

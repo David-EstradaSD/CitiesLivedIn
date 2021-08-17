@@ -1,12 +1,12 @@
 ## EventTrackerProject
 
-### Full-Stack Spring/REST/JPA Project for Skill Distillery
+#### Full-Stack Spring/REST/JPA/Angular Project for Skill Distillery
 
 ### Overview
-This a dynamic REST API designed by David Estrada, called "Cities Lived In," which acts as an event tracker. It utilizes Spring Data JPA's repositories to provide CRUD functionality and Spring REST to simplify the implementation of RESTful services in the web application. The application's frontend and design comes from JavaScript, HTML, CSS and Bootstrap. It is deployed out to AWS's EC2.
+This a dynamic REST API designed by David Estrada, called "Cities Lived In," which acts as an event tracker. It utilizes Spring Data JPA's repositories to provide CRUD functionality and Spring REST to simplify the implementation of RESTful services in the web application. The application's frontend and design comes from JavaScript, Angular, HTML, CSS and Bootstrap. It is deployed out to AWS's EC2.
 
 ### Technologies Used
- * Coding Languages: Java, JavaScript, Typescript, SQL, HTML, CSS
+ * Coding Languages: Java, JavaScript, Angular, Typescript, SQL, HTML, CSS
  * Spring Data JPA
  * Spring REST
  * AJAX (Asynchronous JavaScript XML) & XHR (XMLHttpRequest)
