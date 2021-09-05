@@ -11,7 +11,7 @@ Cities Lived In is just that, a dynamic RESTful API which acts as an event track
  * Spring Data JPA
  * Object-Oriented Design
  * MySQL Workbench
- * RESTful API
+ * RESTful API ( _Spring Rest_ )
  * AJAX ( _Asynchronous JavaScript XML_ )
  * Postman ( _for smoke-tests_ )
  * Gradle
@@ -21,9 +21,9 @@ Cities Lived In is just that, a dynamic RESTful API which acts as an event track
 Angular, like many other JavaScript web-application frameworks, allows us developers to implement reusable UI components. This speeds up our development time and makes our source code much more manageable. Best of all, we can design dynamic _single-page_ web apps. Of course, under the sheets, it's AJAX that's doing the majority of the work communicating to the server using our Angular code.
 
 ### Spring REST Perks
-Spring REST is a web framework that simplifies the process of creating RESTful (Representational State Transfer) web services. In a REST API, a controller method returns data directly to the client. Spring even provides shortcuts for _@RequestMapping_. Since REST controllers deal with the full variety of HTTP verbs, these shortcuts are more convenient. We can also choose to put both @RequestMapping and @ResponseBody annotations during the controller class declaration to precede every endpoint method. In this application, I used _@RequestMapping("api")_.
+Spring Rest is a web framework that simplifies the process of creating RESTful (Representational State Transfer) web services. In a REST API, a controller method returns data directly to the client. Spring even provides shortcuts for _@RequestMapping_. Since REST controllers deal with the full variety of HTTP verbs, these shortcuts are more convenient. We can also choose to put both @RequestMapping and @ResponseBody annotations during the controller class declaration to precede every endpoint method. In this application, I used _@RequestMapping("api")_.
 
-### AJAX perks (behind the scenes of Angular framework)
+### AJAX perks ( behind the scenes of Angular framework )
 By utilizing JavaScript's XMLHttpRequest, I was able to send asynchronous requests to my Java controllers. This provides several benefits, such as reduced server hits and network load, faster page renders and improved response times, an overall improved user experience, and asynchronous processing.
 
 ### Front-End Design
