@@ -5,7 +5,33 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2021-08-12T18:50:35Z</updated>
+  <updated>2021-08-17T10:00:00Z</updated>
+  <entry>
+    <title>Spring Authorization Server officially moves to spring-projects</title>
+    <link rel="alternate" href="https://spring.io/blog/2021/08/17/spring-authorization-server-officially-moves-to-spring-projects" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Joe Grandja</name>
+    </author>
+    <id>tag:spring.io,2021-08-17:4517</id>
+    <updated>2021-08-17T10:00:00Z</updated>
+    <content type="html">&lt;div class="paragraph"&gt;
+&lt;p&gt;We are very excited to announce that Spring Authorization Server has officially moved out of experimental status and into the &lt;a href="https://github.com/spring-projects/spring-authorization-server"&gt;Spring project’s portfolio&lt;/a&gt;!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;This move coincides with this week&amp;#8217;s 0.2.0 release, which is the first officially supported production-ready version backed by our new &lt;a href="https://github.com/spring-projects/spring-authorization-server#support-policy"&gt;support policy&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Since &lt;a href="https://spring.io/blog/2020/04/15/announcing-the-spring-authorization-server"&gt;announcing the Spring Authorization Server&lt;/a&gt; in April 2020, the &lt;a href="https://github.com/spring-projects/spring-authorization-server/wiki/Feature-List"&gt;implemented features&lt;/a&gt; provide support for a large portion of the OAuth 2.1 Authorization Framework and modest support for OpenID Connect 1.0. However, as we move onto the next phase of development, our focus changes to advancing the support for OpenID Connect 1.0.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;On behalf of the team, I would like to thank everyone who has contributed and helped grow this project in this short time frame. We are confident in the base that we have built so far and are excited for the next phase of the project. We look forward to continuing this work together and ultimately making Spring Authorization Server the de facto framework for OAuth 2 Authorization Server support on the Java platform.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;Let’s get moving onto the next phase!&lt;/p&gt;
+&lt;/div&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>Spring Data 2021.1.0-M2 released</title>
     <link rel="alternate" href="https://spring.io/blog/2021/08/12/spring-data-2021-1-0-m2-released" />
@@ -672,19 +698,6 @@ class Person {&#xD;
   &lt;li&gt;Spring Data Elasticsearch 4.3 M1 - &lt;a href="https://repo.spring.io/libs-milestone/org/springframework/data/spring-data-elasticsearch/4.3.0-M1"&gt;Artifacts&lt;/a&gt; - &lt;a href="https://docs.spring.io/spring-data/elasticsearch/docs/4.3.0-M1/api"&gt;Javadoc&lt;/a&gt; - &lt;a href="https://docs.spring.io/spring-data/elasticsearch/docs/4.3.0-M1/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="https://github.com/spring-projects/spring-data-elasticsearch/releases/tag/4.3.0-M1"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Spring Data Couchbase 4.3 M1 - &lt;a href="https://repo.spring.io/libs-milestone/org/springframework/data/spring-data-couchbase/4.3.0-M1"&gt;Artifacts&lt;/a&gt; - &lt;a href="https://docs.spring.io/spring-data/couchbase/docs/4.3.0-M1/api"&gt;Javadoc&lt;/a&gt; - &lt;a href="https://docs.spring.io/spring-data/couchbase/docs/4.3.0-M1/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="https://github.com/spring-projects/spring-data-couchbase/releases/tag/4.3.0-M1"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>A Bootiful Podcast: Visualizing software architecture with the C4 model with architect Simon Brown</title>
-    <link rel="alternate" href="https://spring.io/blog/2021/07/15/a-bootiful-podcast-visualizing-software-architecture-with-the-c4-model-with-architect-simon-brown" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2021-07-15:4497</id>
-    <updated>2021-07-15T18:17:00Z</updated>
-    <content type="html">&lt;p&gt;Hi, Spring fans! In this installment, I talk to author, prolific public speaker, an architect&amp;rsquo;s architect, and one of the most interesting people I get to bump into, and learn from, in this wacky, wild, and wonderful ecosystem of ours: &lt;a href="https://twitter.com/simonbrown"&gt;Simon Brown (@simonbrown)&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;iframe title="Visualizing software architecture with the C4 model with architect Simon Brown" allowtransparency="true" height="150" width="100%" style="border: none; min-width: min(100%, 430px);" scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=hbqai-108d8cc-pb&amp;from=pb6admin&amp;share=1&amp;download=1&amp;rtl=0&amp;fonts=Arial&amp;skin=1&amp;font-color=&amp;btn-skin=7"&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
 </feed>

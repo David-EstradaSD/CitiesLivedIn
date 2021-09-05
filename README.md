@@ -1,24 +1,21 @@
-## EventTrackerProject
-
-#### Full-Stack Spring/REST/JPA/Angular Project for Skill Distillery
+# _Cities Lived In ( EventTrackerProject_ )
 
 ### Overview
-This a dynamic REST API designed by David Estrada, called "Cities Lived In," which acts as an event tracker. It utilizes Spring Data JPA's repositories to provide CRUD functionality and Spring REST to simplify the implementation of RESTful services in the web application. The application's frontend and design comes from JavaScript, Angular, HTML, CSS and Bootstrap. It is deployed out to AWS's EC2.
+Cities Lived In is just that, a dynamic RESTful API which acts as an event tracker. It utilizes Spring Data JPA's repositories to provide CRUD functionality and Spring REST to simplify the implementation of RESTful services in the web application. The frontend design comes from JavaScript, Angular, HTML, CSS and Bootstrap.
 
-### Technologies Used
- * Coding Languages: Java, JavaScript, Angular, Typescript, SQL, HTML, CSS
+### The app's has been deployed to my AWS EC2 server:
+  * http://18.119.82.56:8080/CitiesLived/
+
+### Technologies
+ * Java, SQL, JS, Angular, Typescript, HTML, CSS
  * Spring Data JPA
- * Spring REST
- * AJAX (Asynchronous JavaScript XML) & XHR (XMLHttpRequest)
- * JSON (JavaScript Object Notation)
- * Postman
- * Conditionals
  * Object-Oriented Design
- * Try-Catch Statements
- * Exceptions
- * Gradle
- * IDEs: Eclipse, VS Code, Atom
  * MySQL Workbench
+ * RESTful API
+ * AJAX ( _Asynchronous JavaScript XML_ )
+ * Postman ( _for smoke-tests_ )
+ * Gradle
+ * Exceptions & try-catch blocks
 
 ### Angular Perks
 Angular, like many other JavaScript web-application frameworks, allows us developers to implement reusable UI components. This speeds up our development time and makes our source code much more manageable. Best of all, we can design dynamic _single-page_ web apps. Of course, under the sheets, it's AJAX that's doing the majority of the work communicating to the server using our Angular code.
@@ -31,9 +28,6 @@ By utilizing JavaScript's XMLHttpRequest, I was able to send asynchronous reques
 
 ### Front-End Design
 All of the front-end for this application was designed using Angular, JavaScript, HTML, and CSS (with some help from Bootstrap). Specifically, I used Angular components to dynamically create forms, tables, and other HTML elements as needed.
-
-### How To Run
-This application has been deployed to my AWS EC2 server and can be found here: http://18.119.82.56:8080/CitiesLived/
 
 ### Lessons Learned
 I learned how to properly utilize Spring Data and Spring REST frameworks to optimize configuration, while implementing the proper annotations and logic to perform basic RESTful services of a dynamic REST api. I learned how REST is aptly named because its clients and servers retrieve and _transfer representations_ of resource state. I learned about _data serialization_ and how we translate an object's state to a sequence of bytes that can be saved or transmitted, allowing for a copy of the original object to be constructed. I learned a great deal regarding _JavaScript_ and _Asynchronous JavaScript XML programming_; more specifically, how to dynamically create HTML elements and how to send CRUD requests with XMLHttpRequest. I also used _JSON (JavaScript Object Notation)_ and its methods _parse_ and _stringify_ to send responses with JavaScript. Lastly, I learned how much smoother front-end design can be developed using JavaScript frameworks such as _Angular_.
