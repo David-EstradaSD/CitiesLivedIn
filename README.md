@@ -4,7 +4,7 @@
 Cities Lived In is just that, a dynamic RESTful API which acts as an event tracker. It utilizes Spring Data JPA's repositories to provide CRUD functionality and Spring REST to simplify the implementation of RESTful services in the web application. The frontend design comes from JavaScript, Angular, HTML, CSS and Bootstrap.
 
 ### The app's has been deployed to my AWS EC2 server:
-  * http://18.119.82.56:8080/CitiesLived/
+  * [Cities Lived In](http://18.119.82.56:8080/CitiesLived/)
 
 ### Technologies
  * Java, SQL, JS, Angular, Typescript, HTML, CSS
