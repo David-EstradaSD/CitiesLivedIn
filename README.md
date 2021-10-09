@@ -6,6 +6,20 @@ Cities Lived In is just that, a dynamic RESTful API which acts as an event track
 ### The app's has been deployed to my AWS EC2 server:
   * [Cities Lived In](http://18.119.82.56:8080/CitiesLived/)
 
+
+### REST Endpoints
+
+|  Method   |    URI               | Request Body | Response Body | Purpose |
+|-----------|----------------------|--------------|---------------|---------|
+| GET       | `/api/cities`      |              | Collection of representations of all cities lived in | List or collection endpoint
+| GET       | `/api/cities/{id}`      |              | Representation of _city_ with input id as {id}| **Retrieve** endpoint
+| GET       | `/api/cities/search/city/{name}`      |              | Collection of all cities matching city name input as {name} | List or collection endpoint
+| GET       | `/api/cities/search/{keyword}` |              | Collection of all cities lived in matching address or state name input as {keyword} | List or collection endpoint
+| POST      | `/api/cities/`      | Representation of a new _city_ recorded | Description of the result of the operation | **Create** endpoint
+| PUT       | `/api/cities/`   | Representation of a new version of _city_ with entered id | Description of the result of the new version | **Replace** endpoint |
+| DELETE    | `/api/cities/{id}`   |              | | **Delete** route |
+
+
 ### Technologies
  * Java, SQL, JS, Angular, Typescript, HTML, CSS
  * Spring Data JPA
@@ -31,15 +45,3 @@ All of the front-end for this application was designed using Angular, JavaScript
 
 ### Lessons Learned
 I learned how to properly utilize Spring Data and Spring REST frameworks to optimize configuration, while implementing the proper annotations and logic to perform basic RESTful services of a dynamic REST api. I learned how REST is aptly named because its clients and servers retrieve and _transfer representations_ of resource state. I learned about _data serialization_ and how we translate an object's state to a sequence of bytes that can be saved or transmitted, allowing for a copy of the original object to be constructed. I learned a great deal regarding _JavaScript_ and _Asynchronous JavaScript XML programming_; more specifically, how to dynamically create HTML elements and how to send CRUD requests with XMLHttpRequest. I also used _JSON (JavaScript Object Notation)_ and its methods _parse_ and _stringify_ to send responses with JavaScript. Lastly, I learned how much smoother front-end design can be developed using JavaScript frameworks such as _Angular_.
-
-### REST Endpoints
-
-|  Method   |    URI               | Request Body | Response Body | Purpose |
-|-----------|----------------------|--------------|---------------|---------|
-| GET       | `/api/cities`      |              | Collection of representations of all cities lived in | List or collection endpoint
-| GET       | `/api/cities/{id}`      |              | Representation of _city_ with input id as {id}| **Retrieve** endpoint
-| GET       | `/api/cities/search/city/{name}`      |              | Collection of all cities matching city name input as {name} | List or collection endpoint
-| GET       | `/api/cities/search/{keyword}` |              | Collection of all cities lived in matching address or state name input as {keyword} | List or collection endpoint
-| POST      | `/api/cities/`      | Representation of a new _city_ recorded | Description of the result of the operation | **Create** endpoint
-| PUT       | `/api/cities/`   | Representation of a new version of _city_ with entered id | Description of the result of the new version | **Replace** endpoint |
-| DELETE    | `/api/cities/{id}`   |              | | **Delete** route |
