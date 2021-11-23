@@ -21,7 +21,7 @@ Cities Lived In is just that, a dynamic RESTful API which acts as an event track
 
 
 ### Technologies
- * Java, SQL, JS, Angular, Typescript, HTML, CSS
+ * Java 8, SQL, JavaScript, Angular (_Typescript_), HTML, CSS
  * Spring Data JPA
  * Object-Oriented Design
  * MySQL Workbench
