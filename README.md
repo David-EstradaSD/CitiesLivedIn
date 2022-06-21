@@ -1,10 +1,9 @@
-# [Cities Lived In](http://18.119.82.56:8080/CitiesLived/) ( _RESTful API_ )
+# [Cities Lived In] ( _RESTful API_ )
 
 ### Overview
-Cities Lived In is just that, a dynamic RESTful API which acts as an event tracker. It utilizes Spring Data JPA's repositories to provide CRUD functionality and Spring REST to simplify the implementation of RESTful services in the web application. The frontend design comes from JavaScript, Angular, HTML, CSS and Bootstrap.
+Cities Lived In is just that, a dynamic RESTful API which acts as an event tracker. It utilizes Spring Data JPA's repositories to provide CRUD functionality and Spring REST to simplify the implementation of RESTful services in the web application. The frontend design comes from JavaScript, Angular, HTML, CSS and Bootstrap. 
 
-### The app's has been deployed to my AWS EC2 server:
-  * [Cities Lived In](http://18.119.82.56:8080/CitiesLived/)
+#### This app was deployed to my AWS EC2 server but the subscription is expired and I have not found the need to renew it. 
 
 
 ### REST Endpoints
